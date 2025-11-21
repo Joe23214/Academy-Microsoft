@@ -166,6 +166,14 @@ namespace MyApp
             {
                 Console.WriteLine("inserisci l'email dell'utente");
                 email = Console.ReadLine();
+                for (int i = 0; i < s.Length; i++)
+                {
+                    if (s[i].email == email)
+                    {
+                        Console.WriteLine("email già presente, reinserire.");
+                        continue;
+                    }
+                }
 
                 if (Regex.IsMatch(email, pattern)) break;
 
@@ -269,8 +277,15 @@ namespace MyApp
                         s[i].telefono = Console.ReadLine();
 
                         if (s[i].telefono.Length >= 10) break;
+                       for (int j = 0; j < s.Length; j++)
+                        {
+                            if (j != i && s[j].telefono == s[i].telefono)
+                            {
+                                Console.WriteLine("Numero di telefono già presente.");
+                                continue;
+                            }
 
-                        Console.WriteLine("Telefono non valido.");
+                            Console.WriteLine("Telefono non valido.");
                     }
 
                     string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
@@ -280,9 +295,19 @@ namespace MyApp
                         Console.WriteLine("inserisci la nuova email dell'utente");
                         s[i].email = Console.ReadLine();
 
-                        if (Regex.IsMatch(s[i].email, pattern)) break;
+                        if (Regex.IsMatch(s[i].email, pattern))
+                                break;
 
-                        Console.WriteLine("Email non valida.");
+                        for (int j = 0; j < s.Length; j++)
+                        {
+                            if (j != i && s[j].email == s[i].email)
+                            {
+                                Console.WriteLine("Email già presente.");
+                                continue;
+                            }
+                            }
+
+                            Console.WriteLine("Email non valida.");
                     }
 
                     Console.WriteLine("############Utente modificato con successo!############\n");
@@ -343,8 +368,14 @@ namespace MyApp
                             if (s[i].Nome?.Equals(nome, StringComparison.OrdinalIgnoreCase) == true)
                             {
                                 trovato = true;
-                                Console.WriteLine($"{s[i].Nome} {s[i].Cognome} - {s[i].email}");
-                            }
+                                    Console.WriteLine($"CodID: {s[i].codID}");
+                                    Console.WriteLine($"Nome: {s[i].Nome}");
+                                    Console.WriteLine($"Cognome: {s[i].Cognome}");
+                                    Console.WriteLine($"Età: {s[i].eta}");
+                                    Console.WriteLine($"Telefono: {s[i].telefono}");
+                                    Console.WriteLine($"Email: {s[i].email}");
+                                    Console.WriteLine("-----------------------------------------");
+                                }
                         }
 
                         if (!trovato) Console.WriteLine("nessun utente trovato.");
@@ -361,8 +392,14 @@ namespace MyApp
                             if (s[i].Cognome?.Equals(cognome, StringComparison.OrdinalIgnoreCase) == true)
                             {
                                 trovato = true;
-                                Console.WriteLine($"{s[i].Nome} {s[i].Cognome} - {s[i].email}");
-                            }
+                                    Console.WriteLine($"CodID: {s[i].codID}");
+                                    Console.WriteLine($"Nome: {s[i].Nome}");
+                                    Console.WriteLine($"Cognome: {s[i].Cognome}");
+                                    Console.WriteLine($"Età: {s[i].eta}");
+                                    Console.WriteLine($"Telefono: {s[i].telefono}");
+                                    Console.WriteLine($"Email: {s[i].email}");
+                                    Console.WriteLine("-----------------------------------------");
+                                }
                         }
 
                         if (!trovato) Console.WriteLine("nessun utente trovato.");
@@ -378,8 +415,14 @@ namespace MyApp
                             if (s[i].eta >= min && s[i].eta <= max && s[i].codID != null)
                             {
                                 trovato = true;
-                                Console.WriteLine($"{s[i].Nome} {s[i].Cognome} - {s[i].email}");
-                            }
+                                    Console.WriteLine($"CodID: {s[i].codID}");
+                                    Console.WriteLine($"Nome: {s[i].Nome}");
+                                    Console.WriteLine($"Cognome: {s[i].Cognome}");
+                                    Console.WriteLine($"Età: {s[i].eta}");
+                                    Console.WriteLine($"Telefono: {s[i].telefono}");
+                                    Console.WriteLine($"Email: {s[i].email}");
+                                    Console.WriteLine("-----------------------------------------");
+                                }
                         }
 
                         if (!trovato) Console.WriteLine("nessun utente trovato.");
@@ -395,8 +438,14 @@ namespace MyApp
                             if (s[i].telefono == tel)
                             {
                                 trovato = true;
-                                Console.WriteLine($"{s[i].Nome} {s[i].Cognome}");
-                            }
+                                    Console.WriteLine($"CodID: {s[i].codID}");
+                                    Console.WriteLine($"Nome: {s[i].Nome}");
+                                    Console.WriteLine($"Cognome: {s[i].Cognome}");
+                                    Console.WriteLine($"Età: {s[i].eta}");
+                                    Console.WriteLine($"Telefono: {s[i].telefono}");
+                                    Console.WriteLine($"Email: {s[i].email}");
+                                    Console.WriteLine("-----------------------------------------");
+                                }
                         }
 
                         if (!trovato) Console.WriteLine("nessun utente trovato.");
@@ -406,14 +455,20 @@ namespace MyApp
                         Console.WriteLine("inserisci l'email dell'utente da cercare:");
                         string email = Console.ReadLine();
                         trovato = false;
-
+                        if 
                         for (int i = 0; i < s.Length; i++)
                         {
                             if (s[i].email == email)
                             {
                                 trovato = true;
-                                Console.WriteLine($"{s[i].Nome} {s[i].Cognome}");
-                            }
+                                    Console.WriteLine($"CodID: {s[i].codID}");
+                                    Console.WriteLine($"Nome: {s[i].Nome}");
+                                    Console.WriteLine($"Cognome: {s[i].Cognome}");
+                                    Console.WriteLine($"Età: {s[i].eta}");
+                                    Console.WriteLine($"Telefono: {s[i].telefono}");
+                                    Console.WriteLine($"Email: {s[i].email}");
+                                    Console.WriteLine("-----------------------------------------");
+                                }
                         }
 
                         if (!trovato) Console.WriteLine("nessun utente trovato.");
