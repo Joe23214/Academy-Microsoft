@@ -39,7 +39,6 @@ namespace MyApp
         Console.writeLine($"Nome: {s.nome}");
 
 
-
         struct [] Anagrafica;
 
         INIZIA DA CRUD
@@ -99,12 +98,14 @@ namespace MyApp
             int maxID = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                if (s[i].codID != null)
+                if (!string.IsNullOrEmpty(s[i].codID))
                 {
-                    int id = LeggiIntero(s[i].codID);
-                    if (id > maxID)
+                    if (int.TryParse(s[i].codID, out int id))
                     {
-                        maxID = id;
+                        if (id > maxID)
+                        {
+                            maxID = id;
+                        }
                     }
                 }
             }
@@ -119,10 +120,10 @@ namespace MyApp
             string codID = generazioneCodIDProgressivo();
 
             Console.WriteLine("inserisci il nome dell'utente");
-            string nome = Console.ReadLine();
+            string nome = Console.ReadLine() ?? string.Empty;
 
             Console.WriteLine("inserisci il cognome dell'utente");
-            string cognome = Console.ReadLine();
+            string cognome = Console.ReadLine() ?? string.Empty;
 
             int eta;
             while (true)
@@ -136,7 +137,7 @@ namespace MyApp
             while (true)
             {
                 Console.WriteLine("inserisci il telefono dell'utente");
-                telefono = Console.ReadLine();
+                telefono = Console.ReadLine() ?? string.Empty;
 
                 if (telefono.Length < 10)
                 {
@@ -165,14 +166,22 @@ namespace MyApp
             while (true)
             {
                 Console.WriteLine("inserisci l'email dell'utente");
-                email = Console.ReadLine();
+                email = Console.ReadLine() ?? string.Empty;
+
+                bool duplicatoEmail = false;
                 for (int i = 0; i < s.Length; i++)
                 {
                     if (s[i].email == email)
                     {
-                        Console.WriteLine("email già presente, reinserire.");
-                        continue;
+                        duplicatoEmail = true;
+                        break;
                     }
+                }
+
+                if (duplicatoEmail)
+                {
+                    Console.WriteLine("email già presente, reinserire.");
+                    continue;
                 }
 
                 if (Regex.IsMatch(email, pattern)) break;
@@ -233,7 +242,7 @@ namespace MyApp
         {
             Console.WriteLine("############eliminazione utente############");
             Console.WriteLine("inserisci il codice id dell'utente da eliminare:");
-            string codID = Console.ReadLine();
+            string codID = Console.ReadLine() ?? string.Empty;
 
             for (int i = 0; i < s.Length; i++)
             {
@@ -245,7 +254,7 @@ namespace MyApp
                     return;
                 }
             }
-           
+
             Console.WriteLine("Utente non trovato.");
         }
 
@@ -253,16 +262,16 @@ namespace MyApp
         {
             Console.WriteLine("############modifica utente############");
             Console.WriteLine("inserisci il codice id dell'utente da modificare:");
-            string codID = Console.ReadLine();
+            string codID = Console.ReadLine() ?? string.Empty;
 
             for (int i = 0; i < s.Length; i++)
             {
                 if (s[i].codID == codID)
                 {
                     Console.WriteLine("inserisci il nuovo nome dell'utente");
-                    s[i].Nome = Console.ReadLine();
+                    s[i].Nome = Console.ReadLine() ?? string.Empty;
                     Console.WriteLine("inserisci il nuovo cognome dell'utente");
-                    s[i].Cognome = Console.ReadLine();
+                    s[i].Cognome = Console.ReadLine() ?? string.Empty;
 
                     while (true)
                     {
@@ -274,45 +283,63 @@ namespace MyApp
                     while (true)
                     {
                         Console.WriteLine("inserisci il nuovo telefono dell'utente");
-                        s[i].telefono = Console.ReadLine();
+                        s[i].telefono = Console.ReadLine() ?? string.Empty;
 
-                        if (s[i].telefono.Length >= 10) break;
-                       for (int j = 0; j < s.Length; j++)
+                        if (s[i].telefono.Length < 10)
+                        {
+                            Console.WriteLine("Telefono non valido.");
+                            continue;
+                        }
+
+                        bool telefonoDuplicato = false;
+                        for (int j = 0; j < s.Length; j++)
                         {
                             if (j != i && s[j].telefono == s[i].telefono)
                             {
-                                Console.WriteLine("Numero di telefono già presente.");
-                                continue;
+                                telefonoDuplicato = true;
+                                break;
+                            }
+                        }
+
+                        if (telefonoDuplicato)
+                        {
+                            Console.WriteLine("Numero di telefono già presente.");
+                            continue;
+                        }
+
+                        string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+                        while (true)
+                        {
+                            Console.WriteLine("inserisci la nuova email dell'utente");
+                            s[i].email = Console.ReadLine() ?? string.Empty;
+
+                            bool emailDuplicata = false;
+                            for (int j = 0; j < s.Length; j++)
+                            {
+                                if (j != i && s[j].email == s[i].email)
+                                {
+                                    emailDuplicata = true;
+                                    break;
+                                }
                             }
 
-                            Console.WriteLine("Telefono non valido.");
-                    }
-
-                    string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
-
-                    while (true)
-                    {
-                        Console.WriteLine("inserisci la nuova email dell'utente");
-                        s[i].email = Console.ReadLine();
-
-                        if (Regex.IsMatch(s[i].email, pattern))
-                                break;
-
-                        for (int j = 0; j < s.Length; j++)
-                        {
-                            if (j != i && s[j].email == s[i].email)
+                            if (emailDuplicata)
                             {
                                 Console.WriteLine("Email già presente.");
                                 continue;
                             }
-                            }
+
+                            if (Regex.IsMatch(s[i].email, pattern))
+                                break;
 
                             Console.WriteLine("Email non valida.");
-                    }
+                        }
 
-                    Console.WriteLine("############Utente modificato con successo!############\n");
-                    OrdinaAnagrafica();
-                    return;
+                        Console.WriteLine("############Utente modificato con successo!############\n");
+                        OrdinaAnagrafica();
+                        return;
+                    }
                 }
             }
 
@@ -342,32 +369,35 @@ namespace MyApp
                 {
                     case 1:
                         Console.WriteLine("inserisci il codice id dell'utente da cercare:");
-                        string codID = Console.ReadLine();
-                        trovato = false;
-
-                        for (int i = 0; i < s.Length; i++)
                         {
-                            if (s[i].codID == codID)
-                            {
-                                trovato = true;
-                                Console.WriteLine($"{s[i].Nome} {s[i].Cognome} - {s[i].email}");
-                            }
-                        }
+                            string codID = Console.ReadLine() ?? string.Empty;
+                            trovato = false;
 
-                        if (!trovato) Console.WriteLine("nessun utente trovato.");
+                            for (int i = 0; i < s.Length; i++)
+                            {
+                                if (s[i].codID == codID)
+                                {
+                                    trovato = true;
+                                    Console.WriteLine($"{s[i].Nome} {s[i].Cognome} - {s[i].email}");
+                                }
+                            }
+
+                            if (!trovato) Console.WriteLine("nessun utente trovato.");
+                        }
                         break;
 
                     case 2:
                         Console.WriteLine(
                              "inserisci il nome dell'utente da cercare:");
-                        string nome = Console.ReadLine();
-                        trovato = false;
-
-                        for (int i = 0; i < s.Length; i++)
                         {
-                            if (s[i].Nome?.Equals(nome, StringComparison.OrdinalIgnoreCase) == true)
+                            string nome = Console.ReadLine() ?? string.Empty;
+                            trovato = false;
+
+                            for (int i = 0; i < s.Length; i++)
                             {
-                                trovato = true;
+                                if (s[i].Nome?.Equals(nome, StringComparison.OrdinalIgnoreCase) == true)
+                                {
+                                    trovato = true;
                                     Console.WriteLine($"CodID: {s[i].codID}");
                                     Console.WriteLine($"Nome: {s[i].Nome}");
                                     Console.WriteLine($"Cognome: {s[i].Cognome}");
@@ -376,22 +406,24 @@ namespace MyApp
                                     Console.WriteLine($"Email: {s[i].email}");
                                     Console.WriteLine("-----------------------------------------");
                                 }
-                        }
+                            }
 
-                        if (!trovato) Console.WriteLine("nessun utente trovato.");
+                            if (!trovato) Console.WriteLine("nessun utente trovato.");
+                        }
                         break;
 
                     case 3:
                         Console.WriteLine(
                             "inserisci il cognome dell'utente da cercare:");
-                        string cognome = Console.ReadLine();
-                        trovato = false;
-
-                        for (int i = 0; i < s.Length; i++)
                         {
-                            if (s[i].Cognome?.Equals(cognome, StringComparison.OrdinalIgnoreCase) == true)
+                            string cognome = Console.ReadLine() ?? string.Empty;
+                            trovato = false;
+
+                            for (int i = 0; i < s.Length; i++)
                             {
-                                trovato = true;
+                                if (s[i].Cognome?.Equals(cognome, StringComparison.OrdinalIgnoreCase) == true)
+                                {
+                                    trovato = true;
                                     Console.WriteLine($"CodID: {s[i].codID}");
                                     Console.WriteLine($"Nome: {s[i].Nome}");
                                     Console.WriteLine($"Cognome: {s[i].Cognome}");
@@ -400,21 +432,23 @@ namespace MyApp
                                     Console.WriteLine($"Email: {s[i].email}");
                                     Console.WriteLine("-----------------------------------------");
                                 }
-                        }
+                            }
 
-                        if (!trovato) Console.WriteLine("nessun utente trovato.");
+                            if (!trovato) Console.WriteLine("nessun utente trovato.");
+                        }
                         break;
 
                     case 4:
-                        int min = LeggiIntero("inserisci l'età minima:");
-                        int max = LeggiIntero("inserisci l'età massima:");
-                        trovato = false;
-
-                        for (int i = 0; i < s.Length; i++)
                         {
-                            if (s[i].eta >= min && s[i].eta <= max && s[i].codID != null)
+                            int min = LeggiIntero("inserisci l'età minima:");
+                            int max = LeggiIntero("inserisci l'età massima:");
+                            trovato = false;
+
+                            for (int i = 0; i < s.Length; i++)
                             {
-                                trovato = true;
+                                if (s[i].codID != null && s[i].eta >= min && s[i].eta <= max)
+                                {
+                                    trovato = true;
                                     Console.WriteLine($"CodID: {s[i].codID}");
                                     Console.WriteLine($"Nome: {s[i].Nome}");
                                     Console.WriteLine($"Cognome: {s[i].Cognome}");
@@ -423,21 +457,23 @@ namespace MyApp
                                     Console.WriteLine($"Email: {s[i].email}");
                                     Console.WriteLine("-----------------------------------------");
                                 }
-                        }
+                            }
 
-                        if (!trovato) Console.WriteLine("nessun utente trovato.");
+                            if (!trovato) Console.WriteLine("nessun utente trovato.");
+                        }
                         break;
 
                     case 5:
                         Console.WriteLine("inserisci il telefono dell'utente da cercare:");
-                        string tel = Console.ReadLine();
-                        trovato = false;
-
-                        for (int i = 0; i < s.Length; i++)
                         {
-                            if (s[i].telefono == tel)
+                            string tel = Console.ReadLine() ?? string.Empty;
+                            trovato = false;
+
+                            for (int i = 0; i < s.Length; i++)
                             {
-                                trovato = true;
+                                if (s[i].telefono == tel)
+                                {
+                                    trovato = true;
                                     Console.WriteLine($"CodID: {s[i].codID}");
                                     Console.WriteLine($"Nome: {s[i].Nome}");
                                     Console.WriteLine($"Cognome: {s[i].Cognome}");
@@ -446,20 +482,22 @@ namespace MyApp
                                     Console.WriteLine($"Email: {s[i].email}");
                                     Console.WriteLine("-----------------------------------------");
                                 }
-                        }
+                            }
 
-                        if (!trovato) Console.WriteLine("nessun utente trovato.");
+                            if (!trovato) Console.WriteLine("nessun utente trovato.");
+                        }
                         break;
 
                     case 6:
                         Console.WriteLine("inserisci l'email dell'utente da cercare:");
-                        string email = Console.ReadLine();
-                        trovato = false;
-                        for (int i = 0; i < s.Length; i++)
                         {
-                            if (s[i].email == email)
+                            string email = Console.ReadLine() ?? string.Empty;
+                            trovato = false;
+                            for (int i = 0; i < s.Length; i++)
                             {
-                                trovato = true;
+                                if (s[i].email == email)
+                                {
+                                    trovato = true;
                                     Console.WriteLine($"CodID: {s[i].codID}");
                                     Console.WriteLine($"Nome: {s[i].Nome}");
                                     Console.WriteLine($"Cognome: {s[i].Cognome}");
@@ -468,9 +506,10 @@ namespace MyApp
                                     Console.WriteLine($"Email: {s[i].email}");
                                     Console.WriteLine("-----------------------------------------");
                                 }
-                        }
+                            }
 
-                        if (!trovato) Console.WriteLine("nessun utente trovato.");
+                            if (!trovato) Console.WriteLine("nessun utente trovato.");
+                        }
                         break;
 
                     case 0:
@@ -493,7 +532,7 @@ namespace MyApp
                 Console.WriteLine("4. modifica");
                 Console.WriteLine("5. Ricerca");
                 Console.WriteLine("0. esci");
-                scelta = int.Parse(Console.ReadLine());
+                scelta = LeggiIntero("Scelta: ");
                 switch (scelta)
                 {
                     case 1:
@@ -523,5 +562,4 @@ namespace MyApp
 
         }
     }
- }
 }
