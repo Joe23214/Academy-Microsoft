@@ -455,7 +455,6 @@ namespace MyApp
                         Console.WriteLine("inserisci l'email dell'utente da cercare:");
                         string email = Console.ReadLine();
                         trovato = false;
-                        if 
                         for (int i = 0; i < s.Length; i++)
                         {
                             if (s[i].email == email)
@@ -524,4 +523,5 @@ namespace MyApp
 
         }
     }
+ }
 }
