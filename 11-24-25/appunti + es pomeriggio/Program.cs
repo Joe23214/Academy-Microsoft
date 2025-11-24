@@ -190,6 +190,7 @@ namespace MyApp
 }
 }
 */
+/*
 using System;
 using System.Collections;
 
@@ -305,4 +306,225 @@ namespace MyApp
 
         }
     }
+}
+*/
+using System;
+using System.Collections;
+using System.Security.Cryptography.X509Certificates;
+using static ConsoleApp1.Program;
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        /*
+         Obiettivo: implementare un sistema di gestione studenti utilizzando una classe Studente.
+
+        Classe Studente:
+        campi privati: nome, cognome, matricola, ArrayList di voti
+        costruttore che inizializza tutti i dati
+        proprietà di sola lettura per nome, cognome e matricola
+        proprietà calcolata della Media (di sola lettura)
+        proprietà calcolata del NumeroVoti (di sola lettura)
+        metodi: AggiungiVoto(int), RimuoviUltimoVoto(), StampaLibretto(), ToString()
+
+        Programma prevede...
+        Creare un arrayList di Studente e implementare un menu così composto:
+        Aggiungi studente
+        Cerca per matricola
+        Aggiungi voto a studente
+        Visualizza tutti
+        Trova studente con media più alta
+        Esci
+         */
+        public class Studente
+        {
+            private string nome;
+            private string cognome;
+            private string matricola;
+            private ArrayList voti;
+            public Studente(string nome, string cognome, string matricola)
+            {
+                this.nome = nome;
+                this.cognome = cognome;
+                this.matricola = matricola;
+                voti = new ArrayList();
+            }
+            public string Nome { get => nome; }
+            public string Cognome { get => cognome; }
+            public string Matricola { get => matricola; }
+            public double Media
+            {
+                get
+                {
+                    if (voti.Count == 0) return 0.0;
+                    double somma = 0.0;
+                    foreach (int voto in voti)
+                    {
+                        somma += voto;
+                    }
+                    return somma / voti.Count;
+                }
+            }
+            public int NumeroVoti { get => voti.Count; }
+            public void AggiungiVoto(int voto)
+            {
+                voti.Add(voto);
+            }
+            public void RimuoviUltimoVoto()
+            {
+                if (voti.Count > 0)
+                {
+                    voti.RemoveAt(voti.Count - 1);
+                }
+            }
+            public void StampaLibretto()
+            {
+                Console.WriteLine($"Libretto di {nome} {cognome} (Matricola: {matricola}):");
+                foreach (int voto in voti)
+                {
+                    Console.WriteLine($"- Voto: {voto}");
+                }
+                Console.WriteLine($"Media: {Media}");
+            }
+            public override string ToString()
+            {
+                return $"{nome} {cognome} (Matricola: {matricola}) - Media: {Media}, Numero Voti: {NumeroVoti}";
+            }
+        }
+
+      
+        static void Main(string[] args)
+        {
+
+            ArrayList studenti = new ArrayList();
+            bool exit = false;
+            while (!exit)
+            {
+                Console.WriteLine("Menu:");
+                Console.WriteLine("1. Aggiungi studente");
+                Console.WriteLine("2. Cerca per matricola");
+                Console.WriteLine("3. Aggiungi voto a studente");
+                Console.WriteLine("4. Visualizza tutti");
+                Console.WriteLine("5. Trova studente con media più alta");
+                Console.WriteLine("6. Esci");
+                Console.Write("Scegli un'opzione: ");
+                string choice = Console.ReadLine();
+                switch (choice)
+                {
+                    case "1":
+                        aggiungiStudente();
+                        break;
+                    case "2":
+                        findByMatricola();
+                        break;
+                    case "3":
+                        addVoto();
+                        break;
+                    case "4":
+                        viewAllStudents();
+                        break;
+                    case "5":
+                        studenteMediaPiuAlta();
+                        break;
+                    case "6":
+                        exit = true;
+                        break;
+                    default:
+                        Console.WriteLine("Opzione non valida.");
+                        break;
+                }
+
+
+
+
+            }
+            
+            {
+               
+
+            }
+            void aggiungiStudente()
+                {
+                Console.WriteLine("Inserisci nome dello studente:");
+                string nome = Console.ReadLine();
+                Console.WriteLine("Inserisci cognome dello studente:");
+                string cognome = Console.ReadLine();
+                Console.WriteLine("Inserisci matricola dello studente:");
+                string matricola = Console.ReadLine();
+                Studente nuovoStudente = new Studente(nome, cognome, matricola);
+                studenti.Add(nuovoStudente);
+                Console.WriteLine("Studente aggiunto con successo.");
+            }
+            void findByMatricola()
+        {
+            Console.WriteLine(
+                "Inserisci matricola dello studente da cercare:");
+            string matricola = Console.ReadLine();
+            foreach (Studente s in studenti)
+            {
+                if (s.Matricola == matricola)                {
+                    Console.WriteLine(s.ToString());
+                    return;
+                }
+            }
+            Console.WriteLine(
+                "Studente non trovato.");
+        }
+
+         void addVoto()
+        {
+            Console.WriteLine(
+                "Inserisci matricola dello studente a cui aggiungere un voto:");
+            string matricola = Console.ReadLine();
+            foreach (Studente s in studenti)
+            {
+                if (s.Matricola == matricola)
+                {
+                    Console.WriteLine(
+                        "Inserisci il voto da aggiungere:");
+                    int voto = int.Parse(Console.ReadLine());
+                    s.AggiungiVoto(voto);
+                    Console.WriteLine(
+                        "Voto aggiunto con successo.");
+                    return;
+                }
+            }
+            Console.WriteLine(
+                "Studente non trovato.");
+        }
+         void viewAllStudents()
+        {
+            Console.WriteLine(
+                "Elenco di tutti gli studenti:");
+            foreach (Studente s in studenti)
+            {
+                Console.WriteLine(s.ToString());
+            }
+        }
+         void studenteMediaPiuAlta()
+        {
+            if (studenti.Count == 0)
+            {
+                Console.WriteLine(
+                    "Nessuno studente presente.");
+                return;
+            }
+            Studente topStudent = (Studente)studenti[0];
+            foreach (Studente s in studenti)
+            {
+                if (s.Media > topStudent.Media)
+                {
+                    topStudent = s;
+                }
+            }
+            Console.WriteLine(
+                "Studente con la media più alta:");
+            Console.WriteLine(topStudent.ToString());
+            return;
+        }
+    }
+
+       
+       
+}
 }
