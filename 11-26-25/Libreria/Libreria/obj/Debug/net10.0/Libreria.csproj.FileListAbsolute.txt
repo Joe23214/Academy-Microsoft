@@ -1,0 +1,14 @@
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\bin\Debug\net10.0\Libreria.exe
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\bin\Debug\net10.0\Libreria.deps.json
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\bin\Debug\net10.0\Libreria.runtimeconfig.json
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\bin\Debug\net10.0\Libreria.dll
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\bin\Debug\net10.0\Libreria.pdb
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.AssemblyInfo.cs
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.dll
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\refint\Libreria.dll
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.pdb
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\Libreria.genruntimeconfig.cache
+C:\Users\giova\source\repos\11-26-25c#\mattina\Libreria\Libreria\obj\Debug\net10.0\ref\Libreria.dll

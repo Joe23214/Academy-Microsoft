@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|c:\\users\\giova\\source\\repos\\11-26-25c#\\mattina\\libreria\\libreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|solutionrelative:libreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|c:\\users\\giova\\source\\repos\\11-26-25c#\\mattina\\libreria\\libreria\\mensola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|solutionrelative:libreria\\mensola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|c:\\users\\giova\\source\\repos\\11-26-25c#\\mattina\\libreria\\libreria\\gestioneio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|solutionrelative:libreria\\gestioneio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|c:\\users\\giova\\source\\repos\\11-26-25c#\\mattina\\libreria\\libreria\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{882E873F-88EC-4515-82BD-8EEFAC3C7602}|Libreria\\Libreria.csproj|solutionrelative:libreria\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\Libro.cs",
+              "RelativeDocumentMoniker": "Libreria\\Libro.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\Libro.cs",
+              "RelativeToolTip": "Libreria\\Libro.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T09:53:55.502Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gestioneIo.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\gestioneIo.cs",
+              "RelativeDocumentMoniker": "Libreria\\gestioneIo.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\gestioneIo.cs",
+              "RelativeToolTip": "Libreria\\gestioneIo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwDYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T10:02:26.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mensola.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\Mensola.cs",
+              "RelativeDocumentMoniker": "Libreria\\Mensola.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\Mensola.cs",
+              "RelativeToolTip": "Libreria\\Mensola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T09:54:10.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\Program.cs",
+              "RelativeDocumentMoniker": "Libreria\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-26-25c#\\mattina\\Libreria\\Libreria\\Program.cs",
+              "RelativeToolTip": "Libreria\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAlwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T09:53:02.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

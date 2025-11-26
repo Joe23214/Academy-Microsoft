@@ -1,1 +1,1 @@
-esercizi base academy c#
+esercizi e risorse academy c# divisi per giorno
