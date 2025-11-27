@@ -1,0 +1,3 @@
+ho usato HashSet<string> per evitare duplicati così d amostrare per ogni corso solo e soltanto una materia a che se ci potrebbero essere più professori che insegnano una stessa materia
+
+ho usato IEnumerable perché mi consente di visualizzare e iterare il dictionary senza crearne copie
