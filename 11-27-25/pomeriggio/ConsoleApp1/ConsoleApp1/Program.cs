@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp1.Views;
 
 namespace ConsoleApp1
 {
@@ -6,9 +7,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            StudentiController controller = new StudentiController();
-            MenuView view = new MenuView(controller);
+            var repo = new Repository();
+            var controller = new UniversitàController(repo);
 
+            var view = new MenuView(controller);
             view.Start();
         }
     }

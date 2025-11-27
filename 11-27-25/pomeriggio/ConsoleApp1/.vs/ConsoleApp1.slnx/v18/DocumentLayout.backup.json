@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\models\\corsodilaurea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\models\\corsodilaurea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\controllers\\universitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\controllers\\universitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\models\\professore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\models\\professore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\repository\\universitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\repository\\universitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentiController.cs",
-              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\StudentiController.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\StudentiController.cs",
-              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\StudentiController.cs",
-              "RelativeToolTip": "ConsoleApp1\\StudentiController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UniversitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Repository\\UniversitaRepository.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Repository\\UniversitaRepository.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Repository\\UniversitaRepository.cs",
+              "RelativeToolTip": "ConsoleApp1\\Repository\\UniversitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:10:26.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorsoDiLaurea.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Models\\CorsoDiLaurea.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\CorsoDiLaurea.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Models\\CorsoDiLaurea.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\CorsoDiLaurea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:09:49.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Professore.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Models\\Professore.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Professore.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Models\\Professore.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Professore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:09:23.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Views\\MenuView.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Views\\MenuView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Views\\MenuView.cs",
+              "RelativeToolTip": "ConsoleApp1\\Views\\MenuView.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwFEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T14:06:37.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UniversitaController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Controllers\\UniversitaController.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Controllers\\UniversitaController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Controllers\\UniversitaController.cs",
+              "RelativeToolTip": "ConsoleApp1\\Controllers\\UniversitaController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:42:41.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Studente.cs",
-              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Studente.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Studente.cs",
-              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Studente.cs",
-              "RelativeToolTip": "ConsoleApp1\\Studente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Models\\Studente.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Studente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Models\\Studente.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Studente.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wCAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:41:17.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwDcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:40:47.438Z",
               "EditorCaption": ""
