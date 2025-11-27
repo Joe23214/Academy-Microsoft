@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\11-27-25c#\\consoleapp1\\consoleapp1\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749CDC16-9540-4C41-9528-9334A0517EC0}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +26,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StudentiController.cs",
               "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\StudentiController.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\StudentiController.cs",
               "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\StudentiController.cs",
               "RelativeToolTip": "ConsoleApp1\\StudentiController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:42:41.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Studente.cs",
               "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Studente.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Studente.cs",
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\giova\\source\\repos\\11-27-25c#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:40:47.438Z",
               "EditorCaption": ""
