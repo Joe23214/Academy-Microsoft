@@ -6,9 +6,9 @@ namespace ConsoleApp1
 {
     public class Repository : InterfacciaRepository
     {
-        public Dictionary<string, Studente> Studenti { get; set; }
-        public Dictionary<string, Professore> Professori { get; set; }
-        public Dictionary<string, CorsoDiLaurea> Corsi { get; set; }
+        private Dictionary<string, Studente> Studenti { get; set; }
+        private Dictionary<string, Professore> Professori { get; set; }
+        private Dictionary<string, CorsoDiLaurea> Corsi { get; set; }
         private Dictionary<string, Dictionary<string, List<int>>> votiPerStudente;
 
         public Repository()

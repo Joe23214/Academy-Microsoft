@@ -12,3 +12,17 @@ C:\Users\giova\source\repos\11-27-25c#\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0
 C:\Users\giova\source\repos\11-27-25c#\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.pdb
 C:\Users\giova\source\repos\11-27-25c#\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\giova\source\repos\11-27-25c#\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.dll
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\refint\ConsoleApp1.dll
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.pdb
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.exe
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.deps.json
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.runtimeconfig.json
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.dll
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.pdb
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\giova\source\repos\11-28-25c#\pomeriggio\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll

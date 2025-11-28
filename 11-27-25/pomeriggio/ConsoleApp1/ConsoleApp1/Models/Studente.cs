@@ -6,10 +6,10 @@ namespace ConsoleApp1
 {
     public class Studente
     {
-        private string Nome { get; }
-        private string Cognome { get; }
-        private string Matricola { get; }
-        private CorsoDiLaurea CorsoIscritto { get; set; }
+        public string Nome { get; }
+        public string Cognome { get; }
+        public string Matricola { get; }
+        public CorsoDiLaurea CorsoIscritto { get; set; }
 
         public Studente(string nome, string cognome, string matricola)
         {
