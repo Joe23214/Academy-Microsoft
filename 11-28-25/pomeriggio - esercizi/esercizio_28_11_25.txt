@@ -1,0 +1,72 @@
+LABORATORIO 4 - Consegne di oggi
+
+Ampliamento del progetto Gestione Università con IComparable, Stack, Queue e Generics.
+
+═══════════════════════════════════════════════════════
+
+ESERCIZIO 1: IComparable<Studente> [OBBLIGATORIO]
+
+Modificare la classe Studente per implementare IComparable<Studente>.
+Ordinamento richiesto:
+  1. Per Media (DECRESCENTE - chi ha media più alta viene prima)
+  2. A parità di media: per Cognome (alfabetico)
+  3. A parità di cognome: per Nome (alfabetico)
+
+Cosa fare:
+- Aggiungere : IComparable<Studente> alla dichiarazione della classe
+- Implementare il metodo CompareTo(Studente other)
+- Testare con studenti.Sort()
+
+═══════════════════════════════════════════════════════
+
+ESERCIZIO 2: Stack per Storico Operazioni [OBBLIGATORIO]
+
+Creare la classe Services/StoricoOperazioni.cs che usa uno Stack<string>.
+
+Metodi da implementare:
+- Registra(string operazione) - Push
+- UltimaOperazione() - Peek (senza rimuovere)
+- Annulla() - Pop (rimuove e restituisce)
+- OttieniTutte() - Lista di tutte le operazioni
+- Proprietà Count
+
+Integrare nel Controller: ogni operazione (aggiungi, elimina, ecc.) 
+deve essere registrata nello storico.
+
+═══════════════════════════════════════════════════════
+
+ESERCIZIO 3: Queue per Coda Iscrizioni [OBBLIGATORIO BASE]
+
+Creare la classe Services/CodaIscrizioni.cs che usa una Queue<Studente>.
+
+Metodi da implementare:
+- AggiungiRichiesta(Studente) - Enqueue
+- ApprovaProssima() - Dequeue (rimuove e restituisce)
+- ProssimoInCoda() - Peek (senza rimuovere)
+- OttieniRichiesteInAttesa() - Lista
+- Proprietà NumeroRichieste
+
+BONUS: Aggiungere le voci al menu e gestire il flusso completo.
+
+═══════════════════════════════════════════════════════
+
+ESERCIZIO 4: Repository Generico [BONUS]
+
+Creare un repository che funziona con QUALSIASI tipo.
+
+1. Creare l'interfaccia IEntita con proprietà string Id { get; }
+2. Modificare Studente per implementare IEntita (Id => Matricola)
+3. Creare RepositoryGenerico<T> where T : IEntita
+4. Implementare tutti i metodi CRUD usando elemento.Id
+
+═══════════════════════════════════════════════════════
+
+PROMEMORIA METODI:
+
+Stack<T>: Push(), Pop(), Peek(), Count
+Queue<T>: Enqueue(), Dequeue(), Peek(), Count
+
+Per ordine CRESCENTE: this.Campo.CompareTo(other.Campo)
+Per ordine DECRESCENTE: other.Campo.CompareTo(this.Campo)
+
+═══════════════════════════════════════════════════════
