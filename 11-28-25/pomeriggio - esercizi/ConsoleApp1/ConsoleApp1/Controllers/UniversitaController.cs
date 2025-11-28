@@ -127,13 +127,47 @@ namespace ConsoleApp1
         public void AggiungiRichiestaIscrizione(string matricola)
         {
             var s = repo.CercaStudente(matricola);
-            if (s != null)
-                codaIscrizioni.AggiungiRichiesta(s);
+            if (s == null)
+            {
+                Console.WriteLine("Studente non trovato.");
+                return;
+            }
+
+            foreach (var stud in codaIscrizioni.OttieniRichiesteInAttesa())
+            {
+                if (stud.Matricola == matricola)
+                {
+                    Console.WriteLine("Errore: studente già in coda.");
+                    return;
+                }
+            }
+
+            codaIscrizioni.AggiungiRichiesta(s);
+            Console.WriteLine($"Richiesta di {s.Nome} {s.Cognome} aggiunta in coda.");
         }
+
 
         public Studente ApprovaRichiesta()
         {
-            return codaIscrizioni.ApprovaProssima();
+            var studente = codaIscrizioni.ApprovaProssima();
+            if (studente == null)
+                return null;
+
+            if (repo.CercaStudente(studente.Matricola) != null)
+            {
+                Console.WriteLine($"Errore: lo studente {studente.Matricola} è già nel repository.");
+                return null;
+            }
+
+
+            repo.AggiungiStudente(
+                studente.Nome,
+                studente.Cognome,
+                studente.Matricola,
+                studente.CorsoIscritto.Codice
+            );
+
+            return studente;
         }
 
         public List<Studente> RichiesteInAttesa()
@@ -174,6 +208,30 @@ namespace ConsoleApp1
                 Console.WriteLine(stud);
 
             Console.WriteLine("\nTest completato.");
+        }
+
+        public bool RichiestaNuovoStudente(string nome, string cognome, string matricola, string codiceCorso)
+        {
+            if (repo.CercaStudente(matricola) != null)
+            {
+                Console.WriteLine("Errore: matricola già esistente nel sistema.");
+                return false;
+            }
+
+            var studente = new Studente(nome, cognome, matricola);
+
+            try
+            {
+                codaIscrizioni.AggiungiRichiesta(studente);
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+
+            Console.WriteLine($"Richiesta di iscrizione per {nome} {cognome} aggiunta in coda.");
+            return true;
         }
 
     }

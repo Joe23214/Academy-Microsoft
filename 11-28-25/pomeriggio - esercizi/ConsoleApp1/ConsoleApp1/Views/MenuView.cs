@@ -207,18 +207,18 @@ namespace ConsoleApp1.Views
 
         private void AggiungiRichiestaCoda()
         {
-            Console.Write("Matricola studente da aggiungere in coda: ");
-            string matricola = Console.ReadLine().Trim().ToUpperInvariant();
-            var stud = controller.CercaStudente(matricola);
-            if (stud == null)
-            {
-                Console.WriteLine("Studente non trovato.");
-                return;
-            }
+            Console.Write("Nome: "); string n = Console.ReadLine().Trim();
+            Console.Write("Cognome: "); string c = Console.ReadLine().Trim();
+            Console.Write("Matricola: "); string m = Console.ReadLine().Trim().ToUpperInvariant();
 
-            controller.AggiungiRichiestaIscrizione(matricola);
-            Console.WriteLine($"Richiesta di {stud.Nome} {stud.Cognome} aggiunta in coda.");
+            Console.WriteLine("Corsi disponibili:");
+            foreach (var corso in controller.GetAllCorsi())
+                Console.WriteLine($"{corso.Codice}: {corso.Nome}");
+            Console.Write("Codice corso: "); string codCorso = Console.ReadLine().Trim().ToUpperInvariant();
+
+            controller.RichiestaNuovoStudente(n, c, m, codCorso);
         }
+
 
         private void ApprovaProssimaRichiesta()
         {
@@ -226,7 +226,8 @@ namespace ConsoleApp1.Views
             if (stud == null)
                 Console.WriteLine("Nessuna richiesta in coda.");
             else
-                Console.WriteLine($"Richiesta approvata: {stud.Nome} {stud.Cognome}");
+                Console.WriteLine($"Richiesta approvata: {stud.Nome} {stud.Cognome}")
+           
 
         }
 

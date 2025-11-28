@@ -7,7 +7,14 @@ namespace ConsoleApp1
     {
         Queue<Studente> coda = new Queue<Studente>();
 
-        public void AggiungiRichiesta(Studente s) {
+        public void AggiungiRichiesta(Studente s)
+        {
+            foreach (var stud in coda)
+            {
+                if (stud.Matricola == s.Matricola)
+                    throw new InvalidOperationException("Studente già presente in coda.");
+            }
+
             coda.Enqueue(s);
         }
         public Studente ApprovaProssima()
