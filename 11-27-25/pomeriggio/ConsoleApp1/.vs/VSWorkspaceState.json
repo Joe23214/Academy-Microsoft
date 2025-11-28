@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ConsoleApp1",
+    "\\ConsoleApp1\\Controllers",
+    "\\ConsoleApp1\\Interface",
+    "\\ConsoleApp1\\Models",
+    "\\ConsoleApp1\\Repository",
+    "\\ConsoleApp1\\Views"
+  ],
+  "SelectedNode": "\\ConsoleApp1\\Views\\MenuView.cs",
+  "PreviewInSolutionExplorer": false
+}

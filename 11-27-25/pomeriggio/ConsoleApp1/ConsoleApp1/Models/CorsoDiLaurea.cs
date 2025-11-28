@@ -4,33 +4,19 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    internal class CorsoDiLaurea
+    public class CorsoDiLaurea
     {
         public string Codice { get; }
         public string Nome { get; }
         public List<Professore> Professori { get; }
-
-        public HashSet<string> Materie => new HashSet<string>(Professori.Select(p => p.Materia));
+        public List<string> Materie { get; }
 
         public CorsoDiLaurea(string codice, string nome)
         {
             Codice = codice;
             Nome = nome;
             Professori = new List<Professore>();
-        }
-
-        public void AggiungiProfessore(Professore prof)
-        {
-            if (!Professori.Contains(prof))
-            {
-                Professori.Add(prof);
-                prof.AggiungiCorso(this);
-            }
-        }
-
-        public void AggiungiMateria(string materia)
-        {
-            Materie.Add(materia);
+            Materie = new List<string>();
         }
 
         public override string ToString()
@@ -39,4 +25,5 @@ namespace ConsoleApp1
             return $"{Nome} (Cod: {Codice}) - Professori: {profs}";
         }
     }
+
 }

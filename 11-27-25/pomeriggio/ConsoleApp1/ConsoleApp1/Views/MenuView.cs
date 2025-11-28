@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace ConsoleApp1.Views
 {
@@ -63,21 +62,19 @@ namespace ConsoleApp1.Views
 
         private void AggiungiCorso()
         {
-            Console.Write("Codice corso: "); string cod = Console.ReadLine();
-            Console.Write("Nome corso: "); string nome = Console.ReadLine();
+            Console.Write("Codice corso: "); string cod = Console.ReadLine()!;
+            Console.Write("Nome corso: "); string nome = Console.ReadLine()!;
 
             if (controller.AggiungiCorso(cod, nome))
             {
-                var corso = controller.CercaCorso(cod);
-
                 Console.Write("Quante materie vuoi aggiungere al corso? ");
                 if (int.TryParse(Console.ReadLine(), out int nMaterie))
                 {
                     for (int i = 0; i < nMaterie; i++)
                     {
                         Console.Write($"Materia {i + 1}: ");
-                        string mat = Console.ReadLine();
-                        corso.AggiungiMateria(mat);
+                        string mat = Console.ReadLine()!;
+                        controller.AggiungiMateriaACorso(cod, mat);
                     }
                 }
 
@@ -161,12 +158,8 @@ namespace ConsoleApp1.Views
         {
             Console.Write("Inserisci matricola studente: ");
             string m = Console.ReadLine();
-            var studente = controller.CercaStudente(m);
-
-            if (studente != null)
-                studente.StampaLibretto();
-            else
-                Console.WriteLine("Studente non trovato.");
+            string libretto = controller.StampaLibretto(m); 
+            Console.WriteLine(libretto);
         }
     }
 }

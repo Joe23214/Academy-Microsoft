@@ -1,101 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ConsoleApp1
 {
-    internal class UniversitàController
+    public class UniversitàController
     {
-        private Repository repository;
+        private InterfacciaRepository repo;
 
-        public UniversitàController(Repository repo)
+        public UniversitàController(InterfacciaRepository repository)
         {
-            repository = repo;
+            repo = repository;
         }
 
         public bool AggiungiStudente(string nome, string cognome, string matricola, string codiceCorso)
-        {
-            if (repository.Studenti.ContainsKey(matricola))
-                return false;
-
-            if (!repository.Corsi.TryGetValue(codiceCorso, out CorsoDiLaurea corso))
-                return false;
-
-            var studente = new Studente(nome, cognome, matricola);
-            studente.IscrivitiCorso(corso);
-            repository.Studenti.Add(matricola, studente);
-            return true;
-        }
+            => repo.AggiungiStudente(nome, cognome, matricola, codiceCorso);
 
         public Studente CercaStudente(string matricola)
-        {
-            repository.Studenti.TryGetValue(matricola, out Studente s);
-            return s;
-        }
+            => repo.CercaStudente(matricola);
 
         public bool AggiungiVoto(string matricola, string materia, int voto)
-        {
-            if (!repository.Studenti.TryGetValue(matricola, out Studente s))
-                return false;
+            => repo.AggiungiVoto(matricola, materia, voto);
 
-            return s.AggiungiVoto(materia, voto);
-        }
+        public Dictionary<string, int[]> GetVotiStudente(string matricola)
+            => repo.GetVotiStudente(matricola);
 
         public IEnumerable<Studente> GetAllStudenti()
-        {
-            return repository.Studenti.Values;
-        }
+            => repo.GetAllStudenti();
 
         public Studente StudenteMediaPiuAlta()
-        {
-            return repository.Studenti.Values.OrderByDescending(s => s.Media).FirstOrDefault();
-        }
+            => repo.StudenteMediaPiuAlta();
 
         public bool AggiungiProfessore(string nome, string cognome, string id, string materia)
-        {
-            if (repository.Professori.ContainsKey(id))
-                return false;
-
-            repository.Professori.Add(id, new Professore(nome, cognome, id, materia));
-            return true;
-        }
+            => repo.AggiungiProfessore(nome, cognome, id, materia);
 
         public Professore CercaProfessore(string id)
-        {
-            repository.Professori.TryGetValue(id, out Professore p);
-            return p;
-        }
+            => repo.CercaProfessore(id);
 
         public bool AggiungiCorso(string codice, string nome)
-        {
-            if (repository.Corsi.ContainsKey(codice))
-                return false;
-
-            repository.Corsi.Add(codice, new CorsoDiLaurea(codice, nome));
-            return true;
-        }
+            => repo.AggiungiCorso(codice, nome);
 
         public CorsoDiLaurea CercaCorso(string codice)
-        {
-            repository.Corsi.TryGetValue(codice, out CorsoDiLaurea c);
-            return c;
-        }
+            => repo.CercaCorso(codice);
 
         public bool AssegnaProfessoreACorso(string idProf, string codiceCorso)
-        {
-            if (!repository.Professori.TryGetValue(idProf, out Professore prof))
-                return false;
-
-            if (!repository.Corsi.TryGetValue(codiceCorso, out CorsoDiLaurea corso))
-                return false;
-
-            corso.AggiungiProfessore(prof);
-            return true;
-        }
+            => repo.AssegnaProfessoreACorso(idProf, codiceCorso);
 
         public IEnumerable<CorsoDiLaurea> GetAllCorsi()
-        {
-            return repository.Corsi.Values;
-        }
+            => repo.GetAllCorsi();
+
+        public string StampaLibretto(string matricola)
+            => repo.StampaLibretto(matricola);
+
+        public bool AggiungiMateriaACorso(string codiceCorso, string materia)
+        => repo.AggiungiMateriaACorso(codiceCorso, materia);
     }
+
 }
