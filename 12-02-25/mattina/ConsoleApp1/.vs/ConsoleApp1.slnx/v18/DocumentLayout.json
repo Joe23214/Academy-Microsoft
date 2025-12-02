@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\strepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\strepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\titolostudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\titolostudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\contatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\contatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\contattiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\contattiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\giova\\source\\repos\\12-02-25c#\\mattina\\consoleapp1\\consoleapp1\\crudcontatti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B68813F-23C2-8DF2-1B1F-9033A2893F62}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\crudcontatti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\StRepository.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\StRepository.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\StRepository.cs",
+              "RelativeToolTip": "ConsoleApp1\\StRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:12:07.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CrudContatti.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\CrudContatti.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\CrudContatti.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\CrudContatti.cs",
+              "RelativeToolTip": "ConsoleApp1\\CrudContatti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:50:15.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContattiView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\ContattiView.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ContattiView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\ContattiView.cs",
+              "RelativeToolTip": "ConsoleApp1\\ContattiView.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:35:11.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contatto.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Contatto.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Contatto.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Contatto.cs",
+              "RelativeToolTip": "ConsoleApp1\\Contatto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:25:29.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "iCrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\iCrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\iCrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\iCrud.cs",
+              "RelativeToolTip": "ConsoleApp1\\iCrud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:24:19.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:23:08.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TitoloStudio.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\TitoloStudio.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\TitoloStudio.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\TitoloStudio.cs",
+              "RelativeToolTip": "ConsoleApp1\\TitoloStudio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:31:12.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Crud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Crud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Crud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Crud.cs",
+              "RelativeToolTip": "ConsoleApp1\\Crud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:28:42.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
