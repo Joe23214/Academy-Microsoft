@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\MainView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp2\\MainView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp2\\Icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Prodotti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp2\\Prodotti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Pcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp2\\Pcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Icrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Icrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Icrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Icrud.cs",
+              "RelativeToolTip": "ConsoleApp2\\Icrud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:35:20.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\MainView.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\MainView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\MainView.cs",
+              "RelativeToolTip": "ConsoleApp2\\MainView.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwEkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:11:37.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prodotti.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Prodotti.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Prodotti.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Prodotti.cs",
+              "RelativeToolTip": "ConsoleApp2\\Prodotti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:04:24.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pcrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Pcrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Pcrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Pcrud.cs",
+              "RelativeToolTip": "ConsoleApp2\\Pcrud.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:03:48.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\mattina\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:15:36.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+USE PROVA;
+CREATE TABLE TitoloStudio
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Titolo NVARCHAR(100) NOT NULL
+);
+CREATE TABLE Contatto
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nome NVARCHAR(50) NOT NULL,
+    Cognome NVARCHAR(50) NOT NULL,
+    Indirizzo NVARCHAR(100) NULL,
+    Citta NVARCHAR(50) NULL,
+    TdS INT NULL,
+    CONSTRAINT FK_Contatto_TitoloStudio FOREIGN KEY (TdS)
+        REFERENCES TitoloStudio(Id)
+);
+-- Inserimento titoli di studio
+INSERT INTO TitoloStudio (Titolo) VALUES ('Diploma di Maturità');
+INSERT INTO TitoloStudio (Titolo) VALUES ('Laurea Triennale');
+INSERT INTO TitoloStudio (Titolo) VALUES ('Laurea Magistrale');
+
+-- Inserimento contatti
+INSERT INTO Contatto (Nome, Cognome, Indirizzo, Citta, TdS)
+VALUES ('Mario', 'Rossi', 'Via Roma 1', 'Milano', 1);
+
+INSERT INTO Contatto (Nome, Cognome, Indirizzo, Citta, TdS)
+VALUES ('Anna', 'Bianchi', 'Via Milano 2', 'Roma', 2);

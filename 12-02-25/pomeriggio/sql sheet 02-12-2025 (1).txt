@@ -1,0 +1,266 @@
+--CREATE DATABASE NegozioDB;
+
+USE NegozioDB;
+
+
+/*CREATE TABLE TITOLIDISTUDIO(
+ID int primary key IDENTITY(1,1),
+TdS NVARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE CLIENTI(
+ID INT primary key IDENTITY(1,1),
+NOME NVARCHAR(100) NOT NULL,
+Email NVARCHAR(100) UNIQUE NOT NULL,
+DataRegistrazione DATE DEFAULT GETDATE(),
+TitoloDiStudioID INT NOT NULL,
+CONSTRAINT FK_CLIENTI_TITOLI FOREIGN KEY (TitoloDiStudioID) REFERENCES TitoliDiStudio(ID)
+);
+
+CREATE TABLE PRODOTTI(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+NomeProdotto NVARCHAR(100) NOT NULL,
+PREZZO DECIMAL(10,2) NOT NULL CHECK(Prezzo>0),
+Giacenze INT
+);
+
+CREATE TABLE ORDINI(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+NUM_COLLI INT,
+PUNTOVENDITA NVARCHAR(100),
+CLIENTID INT NOT NULL,
+TOTALE DECIMAL(10, 2),
+INDIRIZZO_SPEDIZIONE NVARCHAR(100),
+DATA_ORDINE DATETIME DEFAULT SYSDATETIME(),
+CONSTRAINT FK_ORDINI_CLIENTI FOREIGN KEY (CLIENTID) REFERENCES Clienti(ID)
+);
+
+CREATE TABLE DETTAGLI_ORDINE(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+QUANTITÀ INT NOT NULL,
+PREZZOUNITARIO DECIMAL(10,2) NOT NULL CHECK(PREZZOUNITARIO>0),
+PRODOTTI_ID INT NOT NULL,
+ORDINE_ID INT NOT NULL,
+CONSTRAINT FK_DETT_ORDINE_ORDINI FOREIGN KEY (ORDINE_ID) REFERENCES Ordini(ID),
+CONSTRAINT FK_DETT_ORDINE_PRODOTTI FOREIGN KEY (PRODOTTI_ID) REFERENCES PRODOTTI(ID)
+);*/
+
+/*INSERT INTO TITOLIDISTUDIO(TDS)
+VALUES
+('Licenza Media'),
+('Diploma'),
+('Laurea Triennale'),
+('Laurea Magistrale'),
+('Master');*/
+
+/*INSERT INTO CLIENTI(NOME, EMAIL, TITOLODISTUDIOID)
+VALUES
+('Luca Bianchi', 'luca.bianchi@example.com', 1),
+('Sara Verdi', 'sara.verdi@example.com', 2),
+('Marco Esposito', 'marco.esposito@example.com', 3),
+('Giulia Romano', 'giulia.romano@example.com', 4),
+('Antonio Serra', 'antonio.serra@example.com', 5);*/
+
+--SELECT TDS AS 'TITOLO DI STUDIO' FROM TITOLIDISTUDIO;
+
+/*insert into prodotti(NomeProdotto, PREZZO, GIACENZE)
+values
+--('giradischi in vinile', 49.99, 5 )
+('Vinile Ghost mary on a cross', 20.50, 10 ),
+('Vinile Geolier brutto', 2000, 50 ),
+('Vinile Michael Jackson Beat It', 30.50, 30 ),
+('Vinile Cristina D`avena cartoni anni `90', 10.00, 50 ),
+('Vinile Nomadi', 80.50, 200 ),
+('casse bluetooth', 200.30, 500 ),
+('Cuffie wireless', 349.99, 200 ),
+('Airpods', 2000, 10 ),
+('Tastiera elettrica', 350.00, 230 ),
+('pianoforte verticale', 12000.50, 100 )*/
+
+/*select * from ordini;
+select * from prodotti;
+select * from dettagli_ordine;*/
+
+
+/*insert into ordini(num_colli, puntoVendita, clientid, totale, indirizzo_spedizione)
+values
+(10, 'Villaricca', 2, 500.00, 'Francia')
+(5, 'Cagliari', 3, 700.00, 'Monaco'),
+(7, 'Benevento', 4, 800.00, 'Austria'),
+(12, 'MaranoDiNapoli', 5, 500.00, 'Egitto'),
+(42, 'Calvizzano', 6, 7000.00, 'Parigi')*/
+
+
+/*INSERT INTO DETTAGLI_ORDINE (QUANTITÀ, PREZZOUNITARIO, PRODOTTI_ID, ORDINE_ID)
+VALUES 
+(1, 49.99, 1, 3),
+(2, 20.50, 2, 5),
+(3, 2000.00, 3, 6),
+(4, 30.50, 4, 3),
+(5, 10.00, 5, 2),
+(6, 80.50, 6, 4);*/
+
+--SELECT * FROM CLIENTI;
+
+
+
+-- join importante per il dto
+
+
+
+/*CREATE VIEW v_clienti_titoli
+AS
+SELECT c.id, -- as clienteid,
+		c.nome,
+		c.email,
+		c.dataregistrazione,
+		t.tds --as 'titolo di studio'
+FROM clienti c
+JOIN titolidistudio t ON c.titolodistudioid = t.id;*/
+
+--SELECT * FROM v_clienti_titoli;
+
+-- query da prodotti a dettaglio che mostri un controllo sulle giacenze
+
+
+
+/*
+SELECT	p.id,
+		p.giacenze,
+		p.prezzo,
+		p.nomeprodotto,
+		CASE WHEN p.GIACENZE < 50 THEN 'Sotto Scorta' ELSE 'OK' END AS StatoGiacenza
+FROM prodotti p
+*/
+
+-- join tra ordini e clienti
+/*CREATE VIEW V_clienti_ordini
+AS
+SELECT 
+		O.ID,
+		O.DATA_ORDINE,
+		O.INDIRIZZO_SPEDIZIONE,
+		O.NUM_COLLI,
+		O.PUNTOVENDITA,
+		O.TOTALE,
+		--C.DataRegistrazione,
+		C.Email,
+		C.NOME		
+FROM ORDINI O
+JOIN CLIENTI C ON O.CLIENTID = C.ID;*/
+
+--SELECT * FROM V_clienti_ordini;
+--SELECT * FROM DETTAGLI_ORDINE ORDER BY DETTAGLI_ORDINE.ORDINE_ID
+
+/*SELECT d.ID,
+		d.PREZZOUNITARIO,
+		d.PRODOTTI_ID,
+		d.QUANTITÀ,		
+		O.DATA_ORDINE,
+		O.INDIRIZZO_SPEDIZIONE,
+		O.NUM_COLLI,
+		O.PUNTOVENDITA,
+		O.TOTALE,
+		C.Email,
+		C.NOME,
+		O.ID AS 'NUMERO ORDINE'
+FROM DETTAGLI_ORDINE d
+JOIN ORDINI o ON D.ORDINE_ID = O.ID
+JOIN CLIENTI C ON O.CLIENTID = C.ID
+ORDER BY O.ID;*/
+
+
+--VERIFICARE LA SOMMA DEI DETTAGLI E CONFRONTARLO CON QUANTO DOVREBBE ESSERE
+-- dai solo i dati che servono per il group by
+/*SELECT 
+		d.ORDINE_ID,
+		SUM(QUANTITÀ*PREZZOUNITARIO) AS 'totale dettagli ordine'
+FROM DETTAGLI_ORDINE d
+GROUP BY d.ORDINE_ID;
+
+
+SELECT * FROM ORDINI WHERE ID = 2;*/
+
+
+/*SELECT 
+		d.ORDINE_ID,
+		SUM(QUANTITÀ*PREZZOUNITARIO) AS 'totale dettagli ordine',
+		O.TOTALE,
+		CASE WHEN O.TOTALE <> SUM(QUANTITÀ*PREZZOUNITARIO) THEN SUM(QUANTITÀ*PREZZOUNITARIO) ELSE O.TOTALE END AS 'VERO PREZZO'
+FROM DETTAGLI_ORDINE d
+JOIN ORDINI O ON D.ORDINE_ID = O.ID
+GROUP BY d.ORDINE_ID, O.TOTALE*/
+
+
+/*UPDATE ORDINI O 
+JOIN(
+	SELECT
+		D.ORDINE_ID,
+		SUM(QUANTITÀ*PREZZOUNITARIO) AS totaleordine
+	FROM DETTAGLI_ORDINE D
+	GROUP BY D.ORDINE_ID
+) x ON o.id = x.ordine_id
+SET O.TOTALE - x.totaleordine
+WHERE O.TOTALE <> X.totaleordine*/
+
+SELECT * FROM ORDINI;
+
+
+UPDATE ORDINI
+SET ORDINI.TOTALE = (
+	SELECT
+		D.ORDINE_ID,
+		SUM(QUANTITÀ*PREZZOUNITARIO) AS 'TOTALE CORRETTO'
+	FROM DETTAGLI_ORDINE D
+	)
+WHERE ID = 2
+
+UPDATE ORDINI
+SET ORDINI.TOTALE = (SELECT
+-- ORDINE_ID,
+SUM(QUANTITÀ * PREZZOUNITARIO) AS TotaleOrdine
+FROM DETTAGLI_ORDINE
+where Ordine_id = 2
+GROUP BY ORDINE_ID)
+WHERE ID = 2
+
+UPDATE ORDINI
+SET ORDINI.TOTALE = 500
+
+
+/*-- ESEMPI LEFT E RIGHT JOIN
+-- INTERROGARE IL DATABASE SU FRA TUTTI GLI ORDINI QUALI SONO QUELLI MAI ORDINATI
+-- CERCARE IN SEGUITO IL PRODOTTO PIÙ RICHIESTO
+-- QUAL`È IL CLIENTE CHE HA ORDINATO DI PIÙ
+
+SELECT P.ID,
+		P.NomeProdotto,
+		O.PRODOTTI_ID
+FROM DETTAGLI_ORDINE O
+RIGHT JOIN PRODOTTI P
+ON P.ID = O.PRODOTTI_ID
+WHERE O.PRODOTTI_ID IS NULL
+
+SELECT P.ID,
+		D.QUANTITÀ,
+		P.NomeProdotto,
+		SUM(D.QUANTITÀ*)
+FROM DETTAGLI_ORDINE D
+JOIN PRODOTTI P
+ON P.ID = D.PRODOTTI_ID
+WHERE D.QUANTITÀ = */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
