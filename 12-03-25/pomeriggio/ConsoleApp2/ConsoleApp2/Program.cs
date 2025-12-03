@@ -49,15 +49,6 @@ namespace MyApp
                 mw.CreateProdotto();
             }
 
-            to do:
-            1 implementare connessione singleton -ok
-            2 mvc pattern corretto -ok
-
-            3 implementare crud totale di prodotti
-            4 implementare entità categorieProdotti + crud totale + vincoli db
-            5 -opt stringa di connessione fuori da progetto o fuori da classe(?)
-
-
             */
             bool running = true;
             MainView mw = new MainView();
