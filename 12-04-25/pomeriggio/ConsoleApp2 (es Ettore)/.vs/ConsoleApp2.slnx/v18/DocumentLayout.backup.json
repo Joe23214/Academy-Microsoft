@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\model\\connessionesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\model\\connessionesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\view\\mainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\repository\\ccrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\repository\\ccrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\repository\\pcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\repository\\pcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\model\\prodotti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\model\\prodotti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\interafce\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\interafce\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|c:\\users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\consoleapp2\\consoleapp2\\interafce\\iccrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF52C80-90A9-AAB8-50BD-54373B8B4D6F}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\interafce\\iccrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Controller\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Controller\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Controller\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Controller\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:58:25.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Prodotti.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Model\\Prodotti.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Model\\Prodotti.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Model\\Prodotti.cs",
+              "RelativeToolTip": "ConsoleApp2\\Model\\Prodotti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:58:16.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnessioneSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Model\\ConnessioneSingleton.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Model\\ConnessioneSingleton.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Model\\ConnessioneSingleton.cs",
+              "RelativeToolTip": "ConsoleApp2\\Model\\ConnessioneSingleton.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:58:02.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Icrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Interafce\\Icrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Interafce\\Icrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Interafce\\Icrud.cs",
+              "RelativeToolTip": "ConsoleApp2\\Interafce\\Icrud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:56:02.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IcCrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Interafce\\IcCrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Interafce\\IcCrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Interafce\\IcCrud.cs",
+              "RelativeToolTip": "ConsoleApp2\\Interafce\\IcCrud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:55:41.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Model\\Categoria.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Model\\Categoria.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Model\\Categoria.cs",
+              "RelativeToolTip": "ConsoleApp2\\Model\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:36:32.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CCrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Repository\\CCrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Repository\\CCrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Repository\\CCrud.cs",
+              "RelativeToolTip": "ConsoleApp2\\Repository\\CCrud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T16:46:37.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\View\\MainView.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\View\\MainView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\View\\MainView.cs",
+              "RelativeToolTip": "ConsoleApp2\\View\\MainView.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAYwKQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:11:37.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pcrud.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Repository\\Pcrud.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Repository\\Pcrud.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-03-25c#\\pomeriggio\\ConsoleApp2\\ConsoleApp2\\Repository\\Pcrud.cs",
+              "RelativeToolTip": "ConsoleApp2\\Repository\\Pcrud.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:03:48.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

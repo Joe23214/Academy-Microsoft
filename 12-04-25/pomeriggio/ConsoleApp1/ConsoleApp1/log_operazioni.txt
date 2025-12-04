@@ -1,0 +1,42 @@
+=== LOG CREATO ===
+2025-12-04 15:57:34  |  Aggiunto professore 1 1 (1)
+2025-12-04 15:57:35  |  Aggiunto professore 1 1 (1)
+2025-12-04 15:57:37  |  Aggiunto corso 1 (1)
+2025-12-04 15:57:39  |  Aggiunta materia 1 al corso 1
+2025-12-04 15:57:41  |  Assegnato prof 1 al corso 1
+2025-12-04 15:57:41  |  Assegnato prof 1 al corso 1
+2025-12-04 15:57:43  |  Assegnato prof 1 al corso 1
+2025-12-04 15:57:43  |  Assegnato prof 1 al corso 1
+2025-12-04 17:14:19  |  Aggiunto professore 1 1 (1)
+2025-12-04 17:14:21  |  Aggiunto corso 1 (1)
+2025-12-04 17:14:23  |  Aggiunta materia 1 al corso 1
+2025-12-04 17:14:25  |  Assegnato prof 1 al corso 1
+2025-12-04 17:14:25  |  Assegnato prof 1 al corso 1
+2025-12-04 17:14:28  |  Richiesta lista corsi
+2025-12-04 17:14:29  |  Aggiunto studente 1 1 (1) al corso 1
+2025-12-04 17:14:31  |  Ricerca studente 1
+2025-12-04 17:14:35  |  Aggiunto voto 30 in 1 allo studente 1
+2025-12-04 17:14:41  |  Richiesta lista studenti
+2025-12-04 17:14:43  |  Ricerca studente con media più alta
+2025-12-04 17:14:47  |  Ricerca studente 1
+2025-12-04 17:14:49  |  Stampa libretto 1
+2025-12-04 17:14:53  |  Ordinamento studenti per media
+2025-12-04 17:15:10  |  Richiesta lista corsi
+2025-12-04 17:17:20  |  Aggiunto professore 1 2 (1)
+2025-12-04 17:17:28  |  Richiesta lista corsi
+2025-12-04 17:18:28  |  Aggiunto professore 1 1 (1)
+2025-12-04 17:18:30  |  Aggiunto corso 1 (1)
+2025-12-04 17:18:32  |  Aggiunta materia 1 al corso 1
+2025-12-04 17:18:34  |  Assegnato prof 1 al corso 1
+2025-12-04 17:18:34  |  Assegnato prof 1 al corso 1
+2025-12-04 17:18:39  |  Richiesta lista corsi
+2025-12-04 17:18:40  |  Aggiunto studente 1 1 (1) al corso 1
+2025-12-04 17:18:44  |  Ricerca studente 1
+2025-12-04 17:18:47  |  Aggiunto voto 30 in 1 allo studente 1
+2025-12-04 17:18:48  |  Richiesta lista studenti
+2025-12-04 17:18:49  |  Ricerca studente con media più alta
+2025-12-04 17:18:50  |  Ricerca studente 1
+2025-12-04 17:18:52  |  Stampa libretto 1
+2025-12-04 17:18:55  |  Ordinamento studenti per media
+2025-12-04 17:19:05  |  Richiesta lista corsi
+2025-12-04 17:19:16  |  Richiesta lista corsi

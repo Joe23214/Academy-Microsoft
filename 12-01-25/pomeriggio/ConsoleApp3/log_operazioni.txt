@@ -1,0 +1,28 @@
+2025-12-03 10:33:55  |  Ricerca studente MAT1
+2025-12-03 10:34:07  |  Aggiunto professore p1 p1 (1)
+2025-12-03 10:34:14  |  Aggiunto corso cor1 (1)
+2025-12-03 10:34:18  |  Aggiunta materia MATE1 al corso 1
+2025-12-03 10:34:20  |  Aggiunta materia MATE2 al corso 1
+2025-12-03 10:34:24  |  Assegnato prof 1 al corso 1
+2025-12-03 10:34:37  |  Richiesta lista corsi
+2025-12-03 10:34:39  |  Aggiunto studente s1 s1 (1) al corso 1
+2025-12-03 10:34:42  |  Ricerca studente 1
+2025-12-03 10:34:49  |  Aggiunto voto 28 in MATE2 allo studente 1
+2025-12-03 10:34:52  |  Richiesta lista studenti
+2025-12-03 10:34:56  |  Ricerca studente con media più alta
+2025-12-03 10:35:17  |  Ricerca studente 1
+2025-12-03 10:35:35  |  Stampa libretto 1
+2025-12-03 10:35:42  |  Ordinamento studenti per media
+2025-12-03 10:35:53  |  Ordinamento studenti per media
+2025-12-03 10:36:09  |  Richiesta lista corsi
+2025-12-03 10:36:33  |  Richiesta lista studenti
+2025-12-03 10:41:10  |  Aggiunto professore 1 1 (1)
+2025-12-03 10:41:13  |  Aggiunto corso 1 (1)
+2025-12-03 10:41:15  |  Aggiunta materia 1 al corso 1
+2025-12-03 10:41:17  |  Assegnato prof 1 al corso 1
+2025-12-03 10:41:23  |  Richiesta lista corsi
+2025-12-03 10:41:24  |  Aggiunto studente s1 s1 (1) al corso 1
+2025-12-03 10:41:33  |  Richiesta lista corsi
+2025-12-03 10:41:40  |  Richiesta lista studenti
+2025-12-03 10:42:07  |  studente nome: s2 cognome: s2 matricola: 2 approvato!
+2025-12-03 10:42:11  |  Richiesta lista studenti

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\CrudTitoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\CrudTitoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Contatto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CrudTitoli.cs",
               "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\CrudTitoli.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\CrudTitoli.cs",
               "ToolTip": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\CrudTitoli.cs",
               "RelativeToolTip": "ConsoleApp1\\CrudTitoli.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T09:55:05.736Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "ConsoleApp1\\titoliInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:54:18.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T09:54:18.352Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "ConsoleApp1\\StRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T09:12:07.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T09:12:07.888Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "ConsoleApp1\\CrudContatti.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:50:15.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:50:15.473Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "ConsoleApp1\\ContattiView.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAADwv04AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:35:11.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:35:11.52Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "ConsoleApp1\\Contatto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:25:29.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:25:29.551Z"
             },
             {
               "$type": "Document",
@@ -140,12 +135,11 @@
               "RelativeToolTip": "ConsoleApp1\\iCrud.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:24:19.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:24:19.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-02-25c#\\mattina\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
@@ -166,8 +160,7 @@
               "RelativeToolTip": "ConsoleApp1\\TitoloStudio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:31:12.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:31:12.657Z"
             },
             {
               "$type": "Document",
@@ -179,8 +172,7 @@
               "RelativeToolTip": "ConsoleApp1\\Crud.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAADwv3oAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:28:42.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T08:28:42.594Z"
             }
           ]
         }

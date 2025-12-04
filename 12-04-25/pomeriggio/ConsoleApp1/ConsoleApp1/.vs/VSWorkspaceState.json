@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Interfaces",
+    "\\Models",
+    "\\Repositories",
+    "\\Services",
+    "\\Views"
+  ],
+  "SelectedNode": "\\Models\\CorsoDiLaurea.cs",
+  "PreviewInSolutionExplorer": false
+}
