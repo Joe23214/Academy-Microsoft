@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\LoggerConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\LoggerConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\Logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\connection.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:connection.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Views\\MenuView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\MenuView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Services\\LogService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\LogService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Repositories\\LoggerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\LoggerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\ILoggerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\InterfacciaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\InterfacciaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\IEntita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IEntita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Services\\StoricoOperazioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\StoricoOperazioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\giova\\source\\repos\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\ConnessioneSingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoggerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\LoggerConfig.cs",
+              "RelativeDocumentMoniker": "Models\\LoggerConfig.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\LoggerConfig.cs",
+              "RelativeToolTip": "Models\\LoggerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:16:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "connection.txt",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\connection.txt",
+              "RelativeDocumentMoniker": "connection.txt",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\connection.txt",
+              "RelativeToolTip": "connection.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-04T16:07:31.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Views\\MenuView.cs",
+              "RelativeDocumentMoniker": "Views\\MenuView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Views\\MenuView.cs",
+              "RelativeToolTip": "Views\\MenuView.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:06:10.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:05:16.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoggerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Repositories\\LoggerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LoggerRepository.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Repositories\\LoggerRepository.cs",
+              "RelativeToolTip": "Repositories\\LoggerRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:03:08.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InterfacciaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\InterfacciaRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\InterfacciaRepository.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\InterfacciaRepository.cs",
+              "RelativeToolTip": "Interfaces\\InterfacciaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:01:01.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEntita.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\IEntita.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEntita.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\IEntita.cs",
+              "RelativeToolTip": "Interfaces\\IEntita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:00:57.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\ILoggerService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\ILoggerService.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\ILoggerService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Interfaces\\ILoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:00:53.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\Logger.cs",
+              "RelativeDocumentMoniker": "Models\\Logger.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\Logger.cs",
+              "RelativeToolTip": "Models\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:47:59.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "Services\\LogService.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Services\\LogService.cs",
+              "RelativeToolTip": "Services\\LogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:53:08.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StoricoOperazioni.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Services\\StoricoOperazioni.cs",
+              "RelativeDocumentMoniker": "Services\\StoricoOperazioni.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-05-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Services\\StoricoOperazioni.cs",
+              "RelativeToolTip": "Services\\StoricoOperazioni.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:54:14.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConnessioneSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\ConnessioneSingleton.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\ConnessioneSingleton.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\ConnessioneSingleton.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\12-04-25c#\\pomeriggio\\ConsoleApp1\\ConsoleApp1\\Models\\ConnessioneSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:17:50.987Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

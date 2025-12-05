@@ -1,0 +1,61 @@
+=== LOG CREATO ===
+2025-12-04 15:57:34  |  Aggiunto professore 1 1 (1)
+2025-12-04 15:57:35  |  Aggiunto professore 1 1 (1)
+2025-12-04 15:57:37  |  Aggiunto corso 1 (1)
+2025-12-04 15:57:39  |  Aggiunta materia 1 al corso 1
+2025-12-04 15:57:41  |  Assegnato prof 1 al corso 1
+2025-12-04 15:57:41  |  Assegnato prof 1 al corso 1
+2025-12-04 15:57:43  |  Assegnato prof 1 al corso 1
+2025-12-04 15:57:43  |  Assegnato prof 1 al corso 1
+2025-12-04 17:14:19  |  Aggiunto professore 1 1 (1)
+2025-12-04 17:14:21  |  Aggiunto corso 1 (1)
+2025-12-04 17:14:23  |  Aggiunta materia 1 al corso 1
+2025-12-04 17:14:25  |  Assegnato prof 1 al corso 1
+2025-12-04 17:14:25  |  Assegnato prof 1 al corso 1
+2025-12-04 17:14:28  |  Richiesta lista corsi
+2025-12-04 17:14:29  |  Aggiunto studente 1 1 (1) al corso 1
+2025-12-04 17:14:31  |  Ricerca studente 1
+2025-12-04 17:14:35  |  Aggiunto voto 30 in 1 allo studente 1
+2025-12-04 17:14:41  |  Richiesta lista studenti
+2025-12-04 17:14:43  |  Ricerca studente con media più alta
+2025-12-04 17:14:47  |  Ricerca studente 1
+2025-12-04 17:14:49  |  Stampa libretto 1
+2025-12-04 17:14:53  |  Ordinamento studenti per media
+2025-12-04 17:15:10  |  Richiesta lista corsi
+2025-12-04 17:17:20  |  Aggiunto professore 1 2 (1)
+2025-12-04 17:17:28  |  Richiesta lista corsi
+2025-12-04 17:18:28  |  Aggiunto professore 1 1 (1)
+2025-12-04 17:18:30  |  Aggiunto corso 1 (1)
+2025-12-04 17:18:32  |  Aggiunta materia 1 al corso 1
+2025-12-04 17:18:34  |  Assegnato prof 1 al corso 1
+2025-12-04 17:18:34  |  Assegnato prof 1 al corso 1
+2025-12-04 17:18:39  |  Richiesta lista corsi
+2025-12-04 17:18:40  |  Aggiunto studente 1 1 (1) al corso 1
+2025-12-04 17:18:44  |  Ricerca studente 1
+2025-12-04 17:18:47  |  Aggiunto voto 30 in 1 allo studente 1
+2025-12-04 17:18:48  |  Richiesta lista studenti
+2025-12-04 17:18:49  |  Ricerca studente con media più alta
+2025-12-04 17:18:50  |  Ricerca studente 1
+2025-12-04 17:18:52  |  Stampa libretto 1
+2025-12-04 17:18:55  |  Ordinamento studenti per media
+2025-12-04 17:19:05  |  Richiesta lista corsi
+2025-12-04 17:19:16  |  Richiesta lista corsi
+639005449167086084 | 2025-12-05 15:21:56 | PROFESSORI | Aggiunto professore 1 1 (1)
+639005449200162102 | 2025-12-05 15:22:00 | CORSI | Aggiunto corso 1 (1)
+639005449213607633 | 2025-12-05 15:22:01 | STUDENTI | Aggiunta materia 1 al corso 1
+639005449247450621 | 2025-12-05 15:22:04 | CORSI | Assegnato prof 1 al corso 1
+639005449247454673 | 2025-12-05 15:22:04 | PROFESSORI | Assegnato prof 1 al corso 1
+639005449283919706 | 2025-12-05 15:22:08 | CORSI | Richiesta lista corsi
+639005449292726133 | 2025-12-05 15:22:09 | STUDENTI | Aggiunto studente 1 1 (1) al corso 1
+639005449311995226 | 2025-12-05 15:22:11 | STUDENTI | Ricerca studente 1
+639005449374250440 | 2025-12-05 15:22:17 | STUDENTI | Aggiunto voto 1 in 6 allo studente 1
+639005449394248759 | 2025-12-05 15:22:19 | STUDENTI | Richiesta lista studenti
+639005449456716842 | 2025-12-05 15:22:25 | STUDENTI | Ricerca studente 1
+639005449484393563 | 2025-12-05 15:22:28 | STUDENTI | Aggiunto voto 30 in 1 allo studente 1
+639005449610872701 | 2025-12-05 15:22:41 | STUDENTI | Ricerca studente con media più alta
+639005449637428058 | 2025-12-05 15:22:43 | STUDENTI | Ricerca studente 1
+639005449682964720 | 2025-12-05 15:22:48 | STUDENTI | Stampa libretto 1
+639005449715754052 | 2025-12-05 15:22:51 | STUDENTI | Ordinamento studenti per media
+639005450019429025 | 2025-12-05 15:23:21 | CORSI | Richiesta lista corsi
+639005450040342457 | 2025-12-05 15:23:24 | STUDENTI | Richiesta di iscrizione per 2 2 aggiunta in coda.
+639005450285276093 | 2025-12-05 15:23:48 | STUDENTI | studente nome: 2 cognome: 2 matricola: 2 approvato!
