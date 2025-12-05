@@ -1,0 +1,11 @@
+CREATE TABLE LoggerConfig (
+    LogStudenti BIT NOT NULL,
+    LogProfessori BIT NOT NULL,
+    LogCorsi BIT NOT NULL,
+    LogCodeStorico BIT NOT NULL,
+    LogPath NVARCHAR(500) NULL  -- può essere nullo, in quel caso Logger calcola il path
+);
+
+-- Inserimento iniziale
+INSERT INTO LoggerConfig (LogStudenti, LogProfessori, LogCorsi, LogCodeStorico, LogPath)
+VALUES (1, 1, 1, 1, NULL);
