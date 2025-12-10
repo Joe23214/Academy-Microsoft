@@ -1,0 +1,520 @@
+
+=== MENU PRINCIPALE ===
+1) Gestione Studenti
+2) Gestione Docenti
+3) Gestione Corsi
+0) Esci
+Scelta: 1
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 1
+Nome: 1
+Cognome: 1
+Età: 1
+Matricola: 99
+Studente inserito!
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 2
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: Nessun corso assegnato
+ID: 2, 1 1, Età: 1, Matricola: 99
+  Corsi: Nessun corso assegnato
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 3
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: Nessun corso assegnato
+ID: 2, 1 1, Età: 1, Matricola: 99
+  Corsi: Nessun corso assegnato
+ID studente da modificare: 2
+Nuovo nome: 9
+Nuovo cognome: 9
+Nuova età: 99
+Nuova matricola: 9
+Studente modificato!
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 4
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: Nessun corso assegnato
+ID: 2, 9 9, Età: 99, Matricola: 9
+  Corsi: Nessun corso assegnato
+ID studente da eliminare: 2
+Studente eliminato!
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 2
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: Nessun corso assegnato
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 5
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: Nessun corso assegnato
+ID studente: 1
+
+=== CORSI DISPONIBILI ===
+1) 1
+ID corso da assegnare: 1
+Corso assegnato!
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 6
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: 1
+ID studente: 1
+
+=== CORSI ASSEGNATI ===
+1) 1
+ID corso da rimuovere: 1
+Corso rimosso!
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 5
+
+=== LISTA STUDENTI ===
+ID: 1, 1 1, Età: 1, Matricola: 1
+  Corsi: Nessun corso assegnato
+ID studente: 1
+
+=== CORSI DISPONIBILI ===
+1) 1
+ID corso da assegnare: 1
+Corso assegnato!
+
+=== MENU STUDENTI ===
+1) Inserisci studente
+2) Visualizza studenti
+3) Modifica studente
+4) Elimina studente
+5) Assegna corso a studente
+6) Rimuovi corso da studente
+0) Torna al menu principale
+Scelta: 0
+
+=== MENU PRINCIPALE ===
+1) Gestione Studenti
+2) Gestione Docenti
+3) Gestione Corsi
+0) Esci
+Scelta: 2
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 1
+Nome docente: 1
+Docente inserito!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 1
+Nome docente: 2
+Docente inserito!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 2
+
+=== LISTA DOCENTI ===
+ID: 1, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 3, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 4, Nome: 2
+  Corsi: Nessun corso assegnato
+ID: 2, Nome: 2
+  Corsi: Nessun corso assegnato
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 3
+
+=== LISTA DOCENTI ===
+ID: 1, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 3, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 4, Nome: 2
+  Corsi: Nessun corso assegnato
+ID: 2, Nome: 2
+  Corsi: Nessun corso assegnato
+ID docente da modificare: 2
+Nuovo nome: 5
+Docente modificato!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 4
+
+=== LISTA DOCENTI ===
+ID: 1, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 3, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 4, Nome: 2
+  Corsi: Nessun corso assegnato
+ID: 2, Nome: 5
+  Corsi: Nessun corso assegnato
+ID docente da eliminare: 1
+Docente eliminato!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 5
+
+=== LISTA DOCENTI ===
+ID: 3, Nome: 1
+  Corsi: Nessun corso assegnato
+ID: 4, Nome: 2
+  Corsi: Nessun corso assegnato
+ID: 2, Nome: 5
+  Corsi: Nessun corso assegnato
+ID docente: 3
+
+=== CORSI DISPONIBILI ===
+1) 1
+ID corso da assegnare: 1
+Corso assegnato!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 5
+
+=== LISTA DOCENTI ===
+ID: 3, Nome: 1
+  Corsi: 1
+ID: 4, Nome: 2
+  Corsi: Nessun corso assegnato
+ID: 2, Nome: 5
+  Corsi: Nessun corso assegnato
+ID docente: 4
+
+=== CORSI DISPONIBILI ===
+1) 1
+ID corso da assegnare: 1
+Corso assegnato!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 6
+
+=== LISTA DOCENTI ===
+ID: 3, Nome: 1
+  Corsi: 1
+ID: 4, Nome: 2
+  Corsi: 1
+ID: 2, Nome: 5
+  Corsi: Nessun corso assegnato
+ID docente: 4
+
+=== CORSI ASSEGNATI ===
+1) 1
+ID corso da rimuovere: 1
+Corso rimosso!
+
+=== MENU DOCENTI ===
+1) Inserisci docente
+2) Visualizza docenti
+3) Modifica docente
+4) Elimina docente
+5) Assegna corso a docente
+6) Rimuovi corso da docente
+0) Torna al menu principale
+Scelta: 0
+
+=== MENU PRINCIPALE ===
+1) Gestione Studenti
+2) Gestione Docenti
+3) Gestione Corsi
+0) Esci
+Scelta: 3
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 1
+Titolo corso: 2
+Codice corso: 2
+Corso inserito!
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 2
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID: 2, 2 (2)
+  Docenti: Nessuno
+  Studenti: Nessuno
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 3
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID: 2, 2 (2)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID corso da modificare:
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 4
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID: 2, 2 (2)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID corso da eliminare: 2
+Corso eliminato!
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 5
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID corso: 1
+
+=== DOCENTI DISPONIBILI ===
+3) 1
+4) 2
+2) 5
+ID docente da assegnare: 1
+Docente non trovato.
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 5
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: Nessuno
+  Studenti: Nessuno
+ID corso: 1
+
+=== DOCENTI DISPONIBILI ===
+3) 1
+4) 2
+2) 5
+ID docente da assegnare: 2
+Docente assegnato!
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 6
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: 1, 5
+  Studenti: Nessuno
+ID corso: 1
+
+=== STUDENTI DISPONIBILI ===
+1) 1 1
+ID studente da assegnare: 1
+Studente assegnato!
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 2
+
+=== LISTA CORSI ===
+ID: 1, 1 (1)
+  Docenti: 1, 5
+  Studenti: 1 1
+
+=== MENU CORSI ===
+1) Inserisci corso
+2) Visualizza corsi
+3) Modifica corso
+4) Elimina corso
+5) Assegna docente a corso
+6) Assegna studente a corso
+0) Torna al menu principale
+Scelta: 0
+
+=== MENU PRINCIPALE ===
+1) Gestione Studenti
+2) Gestione Docenti
+3) Gestione Corsi
+0) Esci
+Scelta: 0
+
+C:\Users\giova\source\repos\12-10-25c#\pomeriggio\EfDemo\EfDemo\bin\Debug\net10.0\EfDemo.exe (processo 28712) terminato. Codice restituito: 0 (0x0).
+Per chiudere automaticamente la console quando viene arrestato il debug, abilitare Strumenti->Opzioni->Debug->Chiudi automaticamente la console quando viene arrestato il debug.
+Premere un tasto qualsiasi per chiudere questa finestra...

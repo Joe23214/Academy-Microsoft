@@ -1,0 +1,1 @@
+Server=(localdb)\MSSQLLocalDB;Database=PROVA;Trusted_Connection=True;TrustServerCertificate=True;
