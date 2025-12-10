@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\view\\studenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\view\\studenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\view\\corsoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\view\\corsoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\view\\docenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\view\\docenteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\view\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\view\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\controller\\corsocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\controller\\corsocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\controller\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\controller\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\controller\\studentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\controller\\studentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\models\\corso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\models\\corso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|c:\\users\\giova\\source\\repos\\12-10-25c#\\mattina\\efdemo\\efdemo\\migrations\\20251210084245_aggiunarelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC9F83E-D949-906E-5F99-E02DDBA76C82}|EfDemo\\EfDemo.csproj|solutionrelative:efdemo\\migrations\\20251210084245_aggiunarelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Program.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Program.cs",
+              "RelativeToolTip": "EfDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:27:11.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CorsoController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Controller\\CorsoController.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Controller\\CorsoController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Controller\\CorsoController.cs",
+              "RelativeToolTip": "EfDemo\\Controller\\CorsoController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:03:25.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorsoView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\CorsoView.cs",
+              "RelativeDocumentMoniker": "EfDemo\\View\\CorsoView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\CorsoView.cs",
+              "RelativeToolTip": "EfDemo\\View\\CorsoView.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwJMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:01:10.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocenteController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Controller\\DocenteController.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Controller\\DocenteController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Controller\\DocenteController.cs",
+              "RelativeToolTip": "EfDemo\\Controller\\DocenteController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:45:54.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\MenuView.cs",
+              "RelativeDocumentMoniker": "EfDemo\\View\\MenuView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\MenuView.cs",
+              "RelativeToolTip": "EfDemo\\View\\MenuView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:45:36.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20251210084245_AggiunaRelEntity.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Migrations\\20251210084245_AggiunaRelEntity.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Migrations\\20251210084245_AggiunaRelEntity.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Migrations\\20251210084245_AggiunaRelEntity.cs",
+              "RelativeToolTip": "EfDemo\\Migrations\\20251210084245_AggiunaRelEntity.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:42:45.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudenteView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\StudenteView.cs",
+              "RelativeDocumentMoniker": "EfDemo\\View\\StudenteView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\StudenteView.cs",
+              "RelativeToolTip": "EfDemo\\View\\StudenteView.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAvwJAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:41:23.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudenteController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Controller\\StudenteController.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Controller\\StudenteController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Controller\\StudenteController.cs",
+              "RelativeToolTip": "EfDemo\\Controller\\StudenteController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:40:55.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Data\\DbContext.cs",
+              "RelativeToolTip": "EfDemo\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:24:25.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocenteView.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\DocenteView.cs",
+              "RelativeDocumentMoniker": "EfDemo\\View\\DocenteView.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\View\\DocenteView.cs",
+              "RelativeToolTip": "EfDemo\\View\\DocenteView.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwIAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:23:38.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Studente.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Models\\Studente.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Models\\Studente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Models\\Studente.cs",
+              "RelativeToolTip": "EfDemo\\Models\\Studente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:23:27.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Corso.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Models\\Corso.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Models\\Corso.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Models\\Corso.cs",
+              "RelativeToolTip": "EfDemo\\Models\\Corso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:20:30.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Models\\Docente.cs",
+              "RelativeDocumentMoniker": "EfDemo\\Models\\Docente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-10-25c#\\mattina\\EfDemo\\EfDemo\\Models\\Docente.cs",
+              "RelativeToolTip": "EfDemo\\Models\\Docente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:26:36.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
