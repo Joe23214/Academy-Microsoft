@@ -110,7 +110,7 @@ namespace EfDemo.View
                 return; }
 
             var corsi = corsoController.GetCorsi().ToList();
-            if (corsi.Count == 0)
+            if (corsi.Count() == 0)
             {
                 Console.WriteLine("Nessun corso in sistema.");
                 return;

@@ -13,7 +13,7 @@ namespace EfDemo.Data
         public DbSet<Corso> Corsi { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer("Server=localhost;Database=ScuolaDB;Trusted_Connection = True; TrustServerCertificate = True; ");
+            options.UseSqlServer("Server=localhost;Database=ScuolaDB2;Trusted_Connection = True; TrustServerCertificate = True; ");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

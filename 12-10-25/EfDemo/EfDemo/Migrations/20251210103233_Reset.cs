@@ -5,23 +5,11 @@
 namespace EfDemo.Migrations
 {
     /// <inheritdoc />
-    public partial class AggiunaRelEntity : Migration
+    public partial class Reset : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "IdCorso",
-                table: "Studenti");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "Matricola",
-                table: "Studenti",
-                type: "nvarchar(450)",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(max)");
-
             migrationBuilder.CreateTable(
                 name: "Corsi",
                 columns: table => new
@@ -34,6 +22,35 @@ namespace EfDemo.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Corsi", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Docenti",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Docenti", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Studenti",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Cognome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Eta = table.Column<int>(type: "int", nullable: false),
+                    Matricola = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Studenti", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -85,12 +102,6 @@ namespace EfDemo.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Studenti_Matricola",
-                table: "Studenti",
-                column: "Matricola",
-                unique: true);
-
-            migrationBuilder.CreateIndex(
                 name: "IX_CorsoDocente_corsiId",
                 table: "CorsoDocente",
                 column: "corsiId");
@@ -99,6 +110,12 @@ namespace EfDemo.Migrations
                 name: "IX_CorsoStudente_studentiId",
                 table: "CorsoStudente",
                 column: "studentiId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Studenti_Matricola",
+                table: "Studenti",
+                column: "Matricola",
+                unique: true);
         }
 
         /// <inheritdoc />
@@ -111,26 +128,13 @@ namespace EfDemo.Migrations
                 name: "CorsoStudente");
 
             migrationBuilder.DropTable(
+                name: "Docenti");
+
+            migrationBuilder.DropTable(
                 name: "Corsi");
 
-            migrationBuilder.DropIndex(
-                name: "IX_Studenti_Matricola",
-                table: "Studenti");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "Matricola",
-                table: "Studenti",
-                type: "nvarchar(max)",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(450)");
-
-            migrationBuilder.AddColumn<int>(
-                name: "IdCorso",
-                table: "Studenti",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+            migrationBuilder.DropTable(
+                name: "Studenti");
         }
     }
 }

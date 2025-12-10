@@ -1,79 +1,81 @@
-APPUNTI & TO DO:
+Agginta entità corsi, abbiamo istranziato le relazioni in questo modo:
 
-// - Creare un progetto EF Core con Code First
-// - Creare una classe DbContext
-// - Creare delle classi POCO (Plain Old CLR Object) per rappresentare le entità del database
-// - Configurare la connessione al database nel DbContext
-// - Utilizzare le migrazioni per creare e aggiornare il database
-// - Eseguire operazioni CRUD (Create, Read, Update, Delete) utilizzando il DbContext
-// - Esempi di query LINQ per recuperare dati dal database
-// - Gestire le relazioni tra entità (uno a molti, molti a molti, ecc.)
+namespace EfDemo.Models
+{
+    public class Corso
+    {
+        public int Id { get; set; }
+        public string codiceCorso { get; set; }
+        public string Titolo { get; set; }
 
-// - Pattern MVC da rispettare nella struttura del progetto mettendo db context in Data
-// - NON DARE DIEPNDENZE ALLA MIANVIEW DEL CONTROLLER!
-// - Implementare tabella cross per entità molti a molti (es. studenti-corsi)
+        public List<Docente> Docenti { get; set; } = new();
+        public List<Studente> studenti { get; set; } = new();
 
-in View 
-- ci deve essere semplicità quidni suddivbidendo in più view, creando dei menù principale che scendono in sotto menu ad esempio:
-scegli 1 per gesitone studenti, 2 per gestione docenti ,3 per gestione corsi e ogni funzione chiama un altra classe e relativo metodo.
-- creare oggetti nella view che passiamo al controller senza passare attributi singoli.
--
+    }
+}
+_
+namespace EfDemo.Models
+{
+    public class Docente
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
 
-In Controller chiasmare direttamente em,todi linq di db context.
-
-Entità da implementare:
-
-Corsi
-
-a studente aggiungere eta matricola e id corso(che verrà trasformato in seguito)
+        public List <Corso> corsi { get; set; } = new();
 
 
-poi fare controlli su inserimento se inserisce o meno ecc, am prima focus sulle funzionalità base.
+    }
+}
+_
+namespace EfDemo.Models
+{
+    /*
+     Una classe POCO (Plain Old CLass) è una classe che rappresenta un semplice
+oggetto di dominio. La sua semplicità la rende facilmente utilizzabile per
+serializzazione, deserializzazione e per passare dati tra diversi strati di
+un'applicazione.
+     */
+    public class Studente
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Cognome { get; set; }
+        public int Eta { get; set; }
 
-____README PROF:____
-# Flusso No Repository
-Program --> MenuView.Show()
---> studView.Menu()
---> Create()
---> Studente.controller.Create(nome, cognome)
-- db.Studenti.Add(studente)
-- db.SaveChanges
+        public string Matricola { get; set; }
+        public List<Corso> Corsi  { get; set; } = new();
 
-** Il controller conosce troppi dettagli del database.
+    }
 
-# QUALI MODIFICHE DOVREMMO FARE?
+}
+db context:
 
-** aggiungere campi
-se in modello esistente (esempio Studente.Eta)
-PM> Add-Migration AggiungiEta
-Update-Database
-
-# Creare una migration
-Add-Migration NomeMigration
-
-# Applicare le migration al database
-Update-Database
-
-# Tornare a una migration prece#dente
-Update-Database NomeMigration
-
-# Eliminare l’ultima migration (solo file, non DB)
-Remove-Migration
-
-# drop tabelle database EF
-Drop-Database
-Add-Migration Iniziale
-
-# aggiungere campi
-se in modello esistente (esempio Studente.Eta)
-PM> Add-Migration AggiungiEta
-Update-Database
-
-# aggiungere modelli
-se in modello esistente (esempio Studente.Eta)
-PM> Add-Migration AggiungiEta
-Update-Database
+namespace EfDemo.Data
+{
+    public class ScuolaContext : DbContext
+    {
+        public DbSet<Studente> Studenti { get; set; }
+        public DbSet<Docente> Docenti { get; set; }
+        public DbSet<Corso> Corsi { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer("Server=localhost;Database=ScuolaDB2;Trusted_Connection = True; TrustServerCertificate = True; ");
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //metodo che viene eseguito quando il modello viene creato
+            //istanza che rappresenta una sessione con il db e configura in autonomia le relaizoni tra entità(?)
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Studente>().HasIndex(s => s.Matricola).IsUnique();
+            //modelBuilder -> classe che modella entità in db
+            //settiamo relazione molti a molti tra studente e corso
+            modelBuilder.Entity<Studente>().HasMany(s => s.Corsi).WithMany(c => c.studenti);
+            modelBuilder.Entity<Corso>().HasMany(c => c.Docenti).WithMany(d => d.corsi);
 
 
 
-
+        }
+    }
+}
+_
+così il db context setta autonomamente le relazioni molti a molti tra studente e corso e tra corso e docente. così possiamo richiamare la lista nelle entità tracciate
