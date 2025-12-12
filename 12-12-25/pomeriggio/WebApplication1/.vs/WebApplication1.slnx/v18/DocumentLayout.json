@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\corso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\corso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\corso\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\corso\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\corso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\corso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\corso\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\corso\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\corso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\corso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\models\\corso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\corso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\controllers\\studentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\docente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\docente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\studente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\studente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\studente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\studente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\webapplication1\\webapplication1\\views\\studente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Corso\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Corso\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T16:07:34.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Corso\\Details.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Corso\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T16:07:29.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Corso\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Corso\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T16:07:22.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Corso\\Create.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Corso\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T16:07:15.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:12:43.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudenteController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Controllers\\StudenteController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudenteController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Controllers\\StudenteController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StudenteController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:07:37.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Studente.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Models\\Studente.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Studente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Models\\Studente.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Studente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:04:20.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Models\\Docente.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Docente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Models\\Docente.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Docente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:04:15.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Corso.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Models\\Corso.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Corso.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Models\\Corso.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Corso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:03:57.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Docente\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Docente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Docente\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Docente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T15:03:21.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Corso\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Corso\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Corso\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T15:03:14.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T15:00:47.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Studente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Studente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:58:59.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Studente\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Studente\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:58:56.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Studente\\Details.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Studente\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:58:46.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Studente\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Studente\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:58:41.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Studente\\Create.cshtml",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-12-25c#\\pomeriggio\\WebApplication1\\WebApplication1\\Views\\Studente\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Studente\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T14:58:31.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

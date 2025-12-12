@@ -1,0 +1,12 @@
+﻿@model Studente
+
+<h2>Dettagli Studente</h2>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Nome:</strong> @Model.Nome</p>
+<p><strong>Cognome:</strong> @Model.Cognome</p>
+<p><strong>Età:</strong> @Model.Eta</p>
+<p><strong>Matricola:</strong> @Model.Matricola</p>
+
+<a asp-action="Edit" asp-route-id="@Model.Id">Modifica</a> |
+<a asp-action="Index">Torna alla lista</a>

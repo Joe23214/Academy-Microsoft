@@ -1,0 +1,10 @@
+﻿@model Corso
+
+<h2>Dettagli Corso</h2>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Nome:</strong> @Model.Titolo</p>
+<p><strong>Cognome:</strong> @Model.codiceCorso</p>
+
+<a asp-action="Edit" asp-route-id="@Model.Id">Modifica</a> |
+<a asp-action="Index">Torna alla lista</a>
