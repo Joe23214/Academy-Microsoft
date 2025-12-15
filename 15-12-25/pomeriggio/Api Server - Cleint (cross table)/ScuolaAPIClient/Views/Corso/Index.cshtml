@@ -1,0 +1,58 @@
+
+@model List<CorsoDto>
+
+<h2>Elenco Corsi</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Codice</th>
+            <th>Nome</th>            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Codice</td>
+                <td>@c.Nome</td>                
+                <td>
+                    <a asp-action="Details" asp-route-id="@c.Id">Dettagli</a> |
+                    <a asp-action="Edit" asp-route-id="@c.Id">Modifica</a> |
+                    <a asp-action="Delete" asp-route-id="@c.Id">Elimina</a>
+                </td>
+            </tr>
+        <div class="modal fade" id="editModal-@c.Id" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form asp-action="Edit" method="post">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modifica Corso</h5>
+                        </div>
+                        <div class="modal-body">
+                            <input type="hidden" name="Id" value="@c.Id" />
+                            <div class="mb-2">
+                                <label>codice</label>
+                                <input name="Codice" class="form-control" value="@c.Codice" />
+                            </div>                      
+                            <div class="mb-2">
+                                <label>Nome</label>
+                                <input name="Nome" class="form-control" value="@c.Nome" />
+                            </div>                                                   
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success">Salva</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Nuovo Corso</a>

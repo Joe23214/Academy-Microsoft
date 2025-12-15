@@ -1,0 +1,22 @@
+﻿@model Corso
+
+<h2>Modifica Studente</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="codiceCorso" class="form-label"></label>
+        <input asp-for="codiceCorso" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Titolo" class="form-label"></label>
+        <input asp-for="Titolo" class="form-control" />
+    </div>
+
+
+    <button type="submit" class="btn btn-warning">Aggiorna</button>
+</form>
+
+<a asp-action="Index">Torna alla lista</a>

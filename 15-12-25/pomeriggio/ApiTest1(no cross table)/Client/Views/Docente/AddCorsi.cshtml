@@ -1,0 +1,44 @@
+﻿@model Docente
+@{
+    ViewData["Title"] = "Gestione Corsi";
+}
+
+<h2>Gestione Corsi per @Model.Name</h2>
+
+<h4>Corsi assegnati</h4>
+<table class="table">
+    <tr>
+        <th>Titolo</th>
+        <th>Azioni</th>
+    </tr>
+    @foreach (var c in Model.corsi)
+    {
+        <tr>
+            <td>@c.Titolo</td>
+            <td>
+                <form asp-action="RemoveCorso" method="post">
+                    <input type="hidden" name="docenteId" value="@Model.Id" />
+                    <input type="hidden" name="corsoId" value="@c.Id" />
+                    <button class="btn btn-danger">Rimuovi</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<h4>Aggiungi Corso</h4>
+<table class="table">
+    @foreach (var c in ViewBag.Corsi as List<Corso>)
+    {
+        <tr>
+            <td>@c.Titolo</td>
+            <td>
+                <form asp-action="AddCorsi" method="post">
+                    <input type="hidden" name="docenteId" value="@Model.Id" />
+                    <input type="hidden" name="corsoId" value="@c.Id" />
+                    <button class="btn btn-success">Aggiungi</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>

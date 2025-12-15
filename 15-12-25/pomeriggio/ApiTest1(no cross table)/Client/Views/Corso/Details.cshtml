@@ -1,0 +1,77 @@
+﻿@model Client.Models.Corso
+
+<h2>Dettagli Corso</h2>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Titolo:</strong> @Model.Titolo</p>
+<p><strong>Codice Corso:</strong> @Model.codiceCorso</p>
+
+<h3>Studenti iscritti</h3>
+@if (Model.studenti?.Any() == true)
+{
+    <table class="table">
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Matricola</th>
+            <th>Azioni</th>
+        </tr>
+        @foreach (var s in Model.studenti)
+        {
+            <tr>
+                <td>@s.Nome</td>
+                <td>@s.Cognome</td>
+                <td>@s.Matricola</td>
+                <td>
+                    <a asp-action="RemoveStudente"
+                       asp-route-corsoId="@Model.Id"
+                       asp-route-studenteId="@s.Id"
+                       class="btn btn-sm btn-danger"
+                       onclick="return confirm('Rimuovere studente?')">
+                        Rimuovi
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p><em>Nessuno studente assegnato</em></p>
+}
+
+<a asp-action="AddStudenti" asp-route-id="@Model.Id" class="btn btn-success">Aggiungi Studente</a>
+
+<h3>Docenti assegnati</h3>
+@if (Model.Docenti?.Any() == true)
+{
+    <table class="table">
+        <tr>
+            <th>Nome</th>
+            <th>Azioni</th>
+        </tr>
+        @foreach (var d in Model.Docenti)
+        {
+            <tr>
+                <td>@d.Name</td>
+                <td>
+                    <a asp-action="RemoveDocente"
+                       asp-route-corsoId="@Model.Id"
+                       asp-route-docenteId="@d.Id"
+                       class="btn btn-sm btn-danger"
+                       onclick="return confirm('Rimuovere docente?')">
+                        Rimuovi
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p><em>Nessun docente assegnato</em></p>
+}
+
+<a asp-action="AddDocenti" asp-route-id="@Model.Id" class="btn btn-info">Aggiungi Docente</a> |
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Modifica</a> |
+<a asp-action="Index" class="btn btn-secondary">Torna alla lista</a>

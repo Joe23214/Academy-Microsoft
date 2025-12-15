@@ -1,0 +1,45 @@
+﻿@model Client.Models.Studente
+
+<h2>Dettagli Studente</h2>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Nome:</strong> @Model.Nome</p>
+<p><strong>Cognome:</strong> @Model.Cognome</p>
+<p><strong>Età:</strong> @Model.Eta</p>
+<p><strong>Matricola:</strong> @Model.Matricola</p>
+
+<h3>Corsi iscritti</h3>
+@if (Model.Corsi?.Any() == true)
+{
+    <table class="table">
+        <tr>
+            <th>Titolo</th>
+            <th>Codice</th>
+            <th>Azioni</th>
+        </tr>
+        @foreach (var c in Model.Corsi)
+        {
+            <tr>
+                <td>@c.Titolo</td>
+                <td>@c.codiceCorso</td>
+                <td>
+                    <a asp-action="RemoveCorso"
+                       asp-route-studenteId="@Model.Id"
+                       asp-route-corsoId="@c.Id"
+                       class="btn btn-sm btn-danger"
+                       onclick="return confirm('Rimuovere corso?')">
+                        Rimuovi
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p><em>Nessun corso assegnato</em></p>
+}
+
+<a asp-action="AddCorsi" asp-route-id="@Model.Id" class="btn btn-success">Aggiungi Corso</a> |
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Modifica</a> |
+<a asp-action="Index" class="btn btn-secondary">Torna alla lista</a>

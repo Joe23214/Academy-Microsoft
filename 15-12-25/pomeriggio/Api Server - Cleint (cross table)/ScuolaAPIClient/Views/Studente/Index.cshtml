@@ -1,0 +1,75 @@
+
+@model List<StudenteDto>
+
+<h2>Elenco Studenti</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Matricola</th>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Età</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td> <a  href="#" class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#editModal-@s.Id">@s.Id</a></td>
+                <td>@s.Matricola</td>
+                <td>@s.Nome</td>
+                <td>@s.Cognome</td>
+                <td>@s.Età</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@s.Id">Dettagli</a> |
+                    <a asp-action="Edit" asp-route-id="@s.Id">Modifica</a> |
+                    <a asp-action="Delete" asp-route-id="@s.Id">Elimina</a>
+                </td>
+            </tr>
+            
+    <div class="modal fade" id="editModal-@s.Id" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form asp-action="Edit" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modifica Studente</h5>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" name="Id" value="@s.Id" />
+
+                        <div class="mb-2">
+                            <label>Matricola</label>
+                            <input name="Matricola" class="form-control" value="@s.Matricola" />
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Nome</label>
+                            <input name="Nome" class="form-control" value="@s.Nome" />
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Cognome</label>
+                            <input name="Cognome" class="form-control" value="@s.Cognome" />
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Età</label>
+                            <input name="Età" class="form-control" value="@s.Età" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Salva</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Nuovo Studente</a>

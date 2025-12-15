@@ -1,0 +1,19 @@
+﻿@model Corso
+
+<h2>Nuovo Corso</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="codiceCorso" class="form-label"></label>
+        <input asp-for="codiceCorso" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Titolo" class="form-label"></label>
+        <input asp-for="Titolo" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Salva</button>
+</form>
+
+<a asp-action="Index">Torna alla lista</a>

@@ -1,0 +1,10 @@
+@model ProfessoreDto
+
+<h2>Dettagli Professore</h2>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Cognome:</strong>@Model.Cognome</p>
+<p><strong>Nome:</strong> @Model.Nome</p>
+
+<a asp-action="Edit" asp-route-id="@Model.Id">Modifica</a> |
+<a asp-action="Index">Torna alla lista</a>
