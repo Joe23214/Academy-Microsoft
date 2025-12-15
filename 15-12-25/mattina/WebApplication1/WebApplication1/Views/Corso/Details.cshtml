@@ -1,0 +1,44 @@
+﻿@model Corso
+
+<h2>Dettagli Corso</h2>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Titolo:</strong> @Model.Titolo</p>
+<p><strong>Codice:</strong> @Model.codiceCorso</p>
+
+<h3>Studenti iscritti</h3>
+
+@if (Model.studenti.Any())
+{
+    <ul>
+        @foreach (var s in Model.studenti)
+        {
+            <li>
+                @s.Nome @s.Cognome – Matricola: @s.Matricola
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p><em>Nessuno studente assegnato</em></p>
+}
+
+<h3>Docenti assegnati</h3>
+
+@if (Model.Docenti.Any())
+{
+    <ul>
+        @foreach (var d in Model.Docenti)
+        {
+            <li>@d.Name</li>
+        }
+    </ul>
+}
+else
+{
+    <p><em>Nessun docente assegnato</em></p>
+}
+
+<a asp-action="Edit" asp-route-id="@Model.Id">Modifica</a> |
+<a asp-action="Index">Torna alla lista</a>

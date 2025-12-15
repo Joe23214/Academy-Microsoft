@@ -1,0 +1,18 @@
+﻿@model Corso
+
+<h2>Aggiungi Docente al corso @Model.Titolo</h2>
+
+<form asp-action="AddDocenti" method="post">
+    <input type="hidden" name="corsoId" value="@Model.Id" />
+
+    <select name="docenteId" class="form-control">
+        @foreach (var d in ViewBag.Docenti)
+        {
+            <option value="@d.Id">@d.Name</option>
+        }
+    </select>
+
+    <button type="submit" class="btn btn-primary mt-2">Aggiungi</button>
+</form>
+
+<a asp-action="Index">Torna ai corsi</a>

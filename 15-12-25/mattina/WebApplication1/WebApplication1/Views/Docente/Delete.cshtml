@@ -1,0 +1,12 @@
+﻿@model Docente
+
+<h2>Conferma eliminazione</h2>
+
+<p>Vuoi eliminare il docente <strong>@Model.Name </strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Elimina</button>
+</form>
+
+<a asp-action="Index">Annulla</a>

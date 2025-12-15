@@ -1,0 +1,12 @@
+﻿@model Corso
+
+<h2>Conferma eliminazione</h2>
+
+<p>Vuoi eliminare il corso <strong>@Model.Titolo Codice: @Model.codiceCorso</strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Elimina</button>
+</form>
+
+<a asp-action="Index">Annulla</a>

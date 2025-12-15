@@ -1,0 +1,20 @@
+﻿@model Corso
+
+<h2>Aggiungi Studente al corso @Model.Titolo</h2>
+
+<form asp-action="AddStudenti" method="post">
+    <input type="hidden" name="corsoId" value="@Model.Id" />
+
+    <select name="studenteId" class="form-control">
+        @foreach (var s in ViewBag.Studenti)
+        {
+            <option value="@s.Id">
+                @s.Nome @s.Cognome
+            </option>
+        }
+    </select>
+
+    <button type="submit" class="btn btn-success mt-2">Aggiungi</button>
+</form>
+
+<a asp-action="Index">Torna ai corsi</a>
