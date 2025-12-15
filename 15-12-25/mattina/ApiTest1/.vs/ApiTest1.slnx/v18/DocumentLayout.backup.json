@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\migrations\\20251215104958_iniziale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\migrations\\20251215104958_iniziale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\data\\scuolacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\data\\scuolacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\readme(appunti).txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\readme(appunti).txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\controllers\\docentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\controllers\\corsocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\controllers\\corsocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\models\\corso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\models\\corso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\models\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|c:\\users\\giova\\source\\repos\\12-15-25c#\\mattina\\apitest1\\apitest1\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE9722C-BDA6-FC2C-A963-7BFD0EACE557}|ApiTest1\\Server.csproj|solutionrelative:apitest1\\models\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251215104958_iniziale.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Migrations\\20251215104958_iniziale.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Migrations\\20251215104958_iniziale.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Migrations\\20251215104958_iniziale.cs",
+              "RelativeToolTip": "ApiTest1\\Migrations\\20251215104958_iniziale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:27:28.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiTest1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\appsettings.Development.json",
+              "RelativeToolTip": "ApiTest1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T11:47:13.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\WeatherForecast.cs",
+              "RelativeToolTip": "ApiTest1\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:28:07.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Readme(Appunti).txt",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Readme(Appunti).txt",
+              "RelativeDocumentMoniker": "ApiTest1\\Readme(Appunti).txt",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Readme(Appunti).txt",
+              "RelativeToolTip": "ApiTest1\\Readme(Appunti).txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-15T11:23:36.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Corso.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Models\\Corso.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Models\\Corso.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Models\\Corso.cs",
+              "RelativeToolTip": "ApiTest1\\Models\\Corso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:03:43.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ApiTest1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:02:48.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Models\\Docente.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Models\\Docente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Models\\Docente.cs",
+              "RelativeToolTip": "ApiTest1\\Models\\Docente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:02:04.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocenteController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\DocenteController.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Controllers\\DocenteController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\DocenteController.cs",
+              "RelativeToolTip": "ApiTest1\\Controllers\\DocenteController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:00:00.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CorsoController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\CorsoController.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Controllers\\CorsoController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\CorsoController.cs",
+              "RelativeToolTip": "ApiTest1\\Controllers\\CorsoController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:59:46.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Studente.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Models\\Studente.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Models\\Studente.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Models\\Studente.cs",
+              "RelativeToolTip": "ApiTest1\\Models\\Studente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:52:27.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScuolaContext.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Data\\ScuolaContext.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Data\\ScuolaContext.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Data\\ScuolaContext.cs",
+              "RelativeToolTip": "ApiTest1\\Data\\ScuolaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:48:01.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiTest1\\appsettings.json",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\appsettings.json",
+              "RelativeToolTip": "ApiTest1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T10:45:34.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Program.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Program.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Program.cs",
+              "RelativeToolTip": "ApiTest1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:25:03.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentiController.cs",
+              "DocumentMoniker": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\StudentiController.cs",
+              "RelativeDocumentMoniker": "ApiTest1\\Controllers\\StudentiController.cs",
+              "ToolTip": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\ApiTest1\\Controllers\\StudentiController.cs",
+              "RelativeToolTip": "ApiTest1\\Controllers\\StudentiController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:24:29.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

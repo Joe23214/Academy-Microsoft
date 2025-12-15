@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ie6ndyPIEFI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\giova\\source\\repos\\12-15-25c#\\mattina\\ApiTest1\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\giova\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
